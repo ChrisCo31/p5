@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@import 'menu.css';
+@import 'footer.css';
+@import 'contact.css';
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    background-color: #E8E8E8;
+    color: white;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, article,
+footer, header, menu,
+section {
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+h6 {
+    font-size: 0.7em;
+}
+/*=====================================================**
+**                  Banner                             **
+**=====================================================*/
+#banner {
+    width:100%;
+    height: 650px;
+    padding-top: 250px;
+    background-color: #67C27D;
+}
+.title {
+  padding-left : 350px;
+}
+.title h1 {
+  font-size: 50px;
+}
+.content {
+  padding-top: 50px;
+  padding-left: 350px;
+}
+/*=====================================================**
+**                  Banner2                             **
+**=====================================================*/
+#banner2 {
+  width:100%;
+  height: 250px;
+  padding-top: 190px;
+  background-color: #67C27D;
+}
+.title {
+padding-left : 350px;
+}
+.title h1 {
+font-size: 55px;
+}
+.content h3 {
+  padding-top:20px;
+  font-size: 28px;
+}
+.content {
+padding-top: 50px;
+padding-left: 350px;
+}
+.title .border {
+  border-bottom:1px solid white;
+  margin-top:10px;
+  margin-right:260px;
+}
+/*=====================================================**
+**                  INDEX                             **
+**=====================================================*/
+#articles {
+    height:100%;  
+    position: relative;     
+}
+#articles a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#first a h3{
+  margin-top:230px;
+}
+#first {
+    height:100%;
+    display: flex;
+}
+#box_1 {
+    background-color: #91C1E6;
+    width: 30%;
+    height: 500px;
+  }
+
+#box_2 {
+    background-color: #5E8EBE;
+    width: 70%;
+    height: 500px;
+    color: black !important;
+    
+  }
+#second {
+    height:100%;
+    display: flex;
+}
+#second a h3{
+  margin-top:230px;
+}
+#box_3 {
+    background-color: #5e7cba;
+    width: 55%;
+    height: 600px;
+    padding: 50px;
+    border-radius: 0.1em;
+  }
+#box_contact {
+    background-color: #E8E8E8;
+    width: 45%;
+    height: 600px;
+    padding: 50px;
+    border-radius: 0.1em;
+  }
+
+
+#third {
+    height:100%;
+    display: flex;
+}
+#third a h3 {
+  margin-top: 130px;
+}
+#box_4 {
+    background-color: #67C27D;
+    width: 33.33%;
+    height: 400px;
+    
+  }
+
+#box_5 {
+    background-color: #00b355;
+    width: 33.33%;
+    height: 400px;
+    
+  }
+
+#box_6 {
+    background-color: #67C27D;
+    width: 33.33%;
+    height: 400px;
+    color: black;
+    
+  }
+.zoom {
+    padding: 50px;
+    transition: transform .4s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 0.1em;
+
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); 
+  }
+/*=====================================================**
+**                  ESS                                **
+**=====================================================*/
+
+#ess {
+  height:100%;
+  display: flex;
+}
+
+#box_9 {
+  width: 100%;
+  height: 100%;
+  background-color: #5E8EBE;
+}
+
+.ess-cont{
+  text-align: left;
+  padding-left: 18%;
+  padding-bottom:10%;
+   
+}
+#content h2 {
+  padding-top:150px;
+}
+#content h3 {
+  padding-top:50px;
+}
+#content p{
+  padding-right: 250px;
+}
+.border{
+  border-bottom:1px solid white;
+  margin-top:10px;
+  margin-right:250px;
+}
+#contact {
+  margin : 0 auto;
+  margin-top: 100px;
+  padding:50px;
+  border-radius: 0.1em;
+}
+/*=====================================================**
+**                  PRESTATIONS                                **
+**=====================================================*/
+.prestations{
+  margin-left:60px;
+  background-color:#67C27D;
+}
+#conseil{
+  background-color: #5E8EBE;
+  padding-top:5%;
+  padding-left: 16%;
+  padding-bottom: 5%;
+}
+#formation{
+    background-color: #00b355;
+    padding-top:5%;
+    padding-left: 16%;
+    padding-bottom: 5%;
+  }
+#marketing{
+    background-color: #67C27D;
+    padding-top:5%;
+    padding-left: 16%;
+    padding-bottom: 5%;
+  }
+#design{
+      background-color: #91C1E6;
+      padding-top:5%;
+      padding-left: 16%;
+      padding-bottom: 5%;
+    }
+#developpement{
+  background-color: #5E7CBA;
+  padding-top:5%;
+  padding-left: 16%;
+  padding-bottom: 5%;
+}
+#contact {
+  margin : 0 auto;
+  margin-top: 100px;
+  padding:50px;
+  border-radius: 0.1em;
+}
+.prestations li {
+  padding:1%;
+}
+
+/*=====================================================**
+**                  PROJETS                          **
+**=====================================================*/
+.container{
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px;
+}
+.container h1 {
+  margin:50px;
+  color: #000000;
+}
+.projets {
+  width: 500px;
+  height: 750px;
+  overflow: hidden;
+  float: left;
+  margin: 50px;
+}
+.projets  h2 {
+  font-style: bolder;
+  font-size: 1em;
+  font-weight:normal;
+  padding: 20px 20px 10px 20px;
+  margin: 440px 0 0 0; 
+  -webkit-transition:margin-top 0.3s ease-in;  
+  -moz-transition:margin-top 0.3s ease-in;  
+  -o-transition:margin-top 0.3s ease-in;  
+  transition:margin-top 0.3s ease-in; 
+}
+.projets  h4 {
+  font-size: 0.9em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px
+}
+.projets  p {
+  font-size: 0.8em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px
+}
+.projets  ul {
+  font-size: 0.8em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 50px
+}
+.projets:hover h2 {
+  margin-top: 1px;
+}
+
+/*colors*/
+.p-ouvrir {
+  background: #5E7CBA;
+}
+.p-anticiper {
+  background: #5E8EBE;
+}
+.p-creer {
+  background: #91C1E6;
+}
+.p-adapter {
+  background: #67C27D;
+}
+.p-concevoir {
+  background: #00B355;
+}
+/*=====================================================**
+**                  Partenariats                          **
+**=====================================================*/
+
+.talk .form {
+  width:600px;
+  height: 600px;
+  padding-top: 50px;
+  padding-left: 150px;
+  border-radius: 0.1em;
+}
+/*=====================================================**
+**                  Equipe                          **
+**=====================================================*/
+.container{
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 50px;
+}
+.container h1 {
+  margin:50px;
+  color: #000000;
+}
+.profils {
+  width: 500px;
+  height: 750px;
+  overflow: hidden;
+  float: left;
+  margin: 50px;
+}
+.profils  h2 {
+  font-style: bolder;
+  font-size: 1em;
+  font-weight:normal;
+  padding: 20px 20px 10px 20px;
+  margin: 440px 0 0 0; 
+  -webkit-transition:margin-top 0.3s ease-in;  
+  -moz-transition:margin-top 0.3s ease-in;  
+  -o-transition:margin-top 0.3s ease-in;  
+  transition:margin-top 0.3s ease-in; 
+}
+.profils  h4 {
+  font-size: 0.9em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px
+}
+.profils  p {
+  font-size: 0.8em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 20px
+}
+.profils  ul {
+  font-size: 0.8em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 50px
+}
+.profils:hover h2 {
+  margin-top: 1px;
+}
+
+/*colors*/
+.p-ouvrir {
+  background: #5E7CBA;
+}
+.p-anticiper {
+  background: #5E8EBE;
+}
+.p-creer {
+  background: #91C1E6;
+}
+.p-adapter {
+  background: #67C27D;
+}
+.p-concevoir {
+  background: #00B355;
+}
+
+/*=====================================================**
+**                  BLOG                            **
+**=====================================================*/
+
+.blogPrez {
+
+  background-color: rgb(12, 32, 41);
+  height: auto;
+  padding: 30px;
+  margin: 0 auto;
+  
+
+}
+/*=====================================================**
+**                  404                            **
+**=====================================================*/
+
+#box_404 {
+  width: 100%;
+  height: 800px;
+  background-color: #5E8EBE;
+}
+.lost h1 {
+padding-top:250px;
+padding-left: 600px;
+font-size: 55px;
+}
+.lost h2 {
+  padding-top:25px;
+  padding-left: 600px;
+  font-size: 35px;
+  }
+
+
+/*=====================================================**
+**                  MEDIA QUERIES                      **
+**=====================================================*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background: red;
+    font-size: 15px;
+    color: black;
+  }
+  #first {
+    display: block;
+  }
+  #box_1 {
+    width: 100%;
+    height: 200px;
+  }
+  #box_2 {
+    width: 100%;
+    height: 200px;
+  }
+  #second {
+    height:100%;
+    display: block;
+}
+#box_3 {
+
+    width: 100%;
+    height: 200px;
+  }
+#box_contact {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    border-radius: 0.1em;
+  }
+#third {
+    height:100%;
+    display: block;
+}
+#box_4 {
+    width: 100%;
+    height: 200px; 
+  }
+
+#box_5 {
+    width: 100%;
+    height: 200px;    
+  }
+
+#box_6 {
+    width: 100%;
+    height: 200px;
+    color: black;  
+  }
+  .col-25, .col-75, input[type=submit] {
+    width: 70%;
+    margin-top: 0;
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background: green;
+  
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background: blue;
+  
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ body {
+   background: orange;
+  
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: pink;
+  
+  }
+}
+}
