@@ -563,9 +563,12 @@ padding-left: 350px;
   #box_3 {
     width:100%;
   }
+  #box_3 h3 {
+    padding-left : 20px;
+  }
 #box_contact {
-
   width:100%;
+  margin-left:25px;
   }
   #third{
     flex-direction: column;
@@ -578,40 +581,75 @@ padding-left: 350px;
   }
   #box_6 {
   width:100%;
+  } 
+  .zoom:hover {
+    transform: none; 
   }
-
-}
-
-   
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  body {
-    background: green;
-  
-  }
-  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  body {
-    background: blue;
-  
+@media screen and (max-width: 992px) {
+             
+/*=====================================================**
+**                  Banner                             **
+**=====================================================*/
+#banner {
+    width:100%;
+    padding-top: 50px;
+    padding-left:-55px;
+    background-color: #67C27D;
+}
+.title {
+  padding-left : 70px;
+}
+.content {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+/*=====================================================**
+**                  Index                             **
+**=====================================================*/
+#first {
+    flex-direction: column;
   }
-} 
+#box_1 {
+    width:100%;
+  }
+#box_2 {
+  width:100%;
+  }
+#second {
+    flex-direction: column;
+  }
+  #box_3 {
+    width:100%;
+  }
+  #box_3 h3 {
+    padding-left : 20px;
+  }
+#box_contact {
+  width:100%;
+  margin-left:25px;
+  }
+  #third{
+    flex-direction: column;
+  }
+  #box_4 {
+    width:100%;
+  }
+#box_5 {
+  width:100%;
+  }
+  #box_6 {
+  width:100%;
+  } 
+  .zoom:hover {
+    transform: none; 
+  }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
- body {
-   background: orange;
-  
-  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  body {
-    background: pink;
-  
-  }
+
 }
