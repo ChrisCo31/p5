@@ -1,7 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import Menu from "../components/Menu";
+import Banner2 from "../components/Banner2";
+import Footer from "../components/Footer";
 import Layout3 from "../components/layout3"
 import SEO from "../components/seo"
 
@@ -12,20 +14,26 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
 
     return (
+      <div className="containerB">
+      <Banner2 />
       <Layout3 location={this.props.location} title={siteTitle}>
+      <Menu />
+      
+      <div className="formBlog">
         <SEO title="All posts" />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3>
+            <div key={node.fields.slug} className="blogtest">
+              <h3 className="titleB">
                 <Link  to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
+              <div className="dateB">
               <small>{node.frontmatter.date}</small>
-              <p
+              </div>
+              <p className="paragrapheB"
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}
@@ -33,7 +41,10 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        </div>
+        <Footer />
       </Layout3>
+      </div>
     )
   }
 }
@@ -55,7 +66,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MM YYYY")
             title
             description
           }

@@ -3,10 +3,7 @@ module.exports = {
     title: `Prométhée, agence digitale ESS`,
     author: `TheTeam`,
     description: `Le site de l'agence digitale Promethée`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    siteUrl: `https://p5promethee.netlify.com/`,
   },
   plugins: [
     {

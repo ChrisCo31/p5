@@ -18,9 +18,14 @@ section {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
 
+ul, li,a 
+{
+text-decoration:none;
+list-style-type:none;
+}
 h1 {
     font-size: 2.5em;
 }
@@ -55,6 +60,7 @@ h6 {
 }
 .title {
   padding-left : 350px;
+  padding-top :90px;
 }
 .title h1 {
   font-size: 50px;
@@ -68,8 +74,8 @@ h6 {
 **=====================================================*/
 #banner2 {
   width:100%;
-  height: 250px;
-  padding-top: 190px;
+  height: 450px;
+  padding-top: 50px;
   background-color: #67C27D;
 }
 .title {
@@ -444,17 +450,58 @@ padding-left: 350px;
 }
 
 /*=====================================================**
-**                  BLOG                            **
+**                  BLOGINDEX                            **
 **=====================================================*/
 
-.blogPrez {
+.formBlog{
+  padding-top:100px;
+  padding-bottom:150px;
+  background-color: #5E8EBE!important;
+}
+.formBlog a{
+  color: #ffffff!important;
+  font-size: 35px;
+}
+.titleB {
+  padding-top: 50px;
+  text-align: center;
+}
+.paragrapheB {
+  padding-top: 20px;
+  padding-left:150px;
+  padding-right:150px;
+  text-align: center;
+}
+.dateB {
+  padding-top: 20px;
+  text-align: center;
+}
 
-  background-color: rgb(12, 32, 41);
-  height: auto;
-  padding: 30px;
-  margin: 0 auto;
-  
+/*=====================================================**
+**                  BLOGPOST                            **
+**=====================================================*/
+.art {
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-left:350px;
+  padding-right:450px;
+  background-color: #5E8EBE!important;
 
+}
+.paginate{
+  text-align:center;
+
+}
+.paginate ul {
+  text-transform: uppercase;
+  display:flex;
+
+
+}
+.paginate li {
+  padding-top: 50px;
+  margin-left:350px;
+  margin-right: 350px;  
 }
 /*=====================================================**
 **                  404                            **
@@ -466,9 +513,9 @@ padding-left: 350px;
   background-color: #5E8EBE;
 }
 .lost h1 {
-padding-top:250px;
-padding-left: 600px;
-font-size: 55px;
+  padding-top:250px;
+  padding-left: 600px;
+  font-size: 55px;
 }
 .lost h2 {
   padding-top:25px;

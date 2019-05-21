@@ -1,7 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import Menu from "../components/Menu";
+import Banner2 from "../components/Banner2";
+import Footer from "../components/Footer";
 import Layout3 from "../components/layout3"
 import SEO from "../components/seo"
 
@@ -12,19 +14,22 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pageContext
 
     return (
+      <div className="containerA">
+       <Banner2 />
       <Layout3 location={this.props.location} title={siteTitle}>
+      <Menu />
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+        <div className="art">
         <h1>{post.frontmatter.title}</h1>
         <p>
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr/>
-        <Bio />
-
+        </div>
+        <div className="paginate">
         <ul>
           <li>
             {previous && (
@@ -41,7 +46,10 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        </div>
+         <Footer />
       </Layout3>
+      </div>
     )
   }
 }

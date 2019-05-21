@@ -24,23 +24,25 @@
 }
 .side-menu h3  {
   
-  margin-top: 180px;
+  margin-top: 120px;
   margin-left: 65px;
   color: #FFF;
 }
 .side-menu p  {
   
-  padding-top:20px;
+  padding-top:10px;
   padding-left: 65px;
   color: #FFF;
 }
 .side-menu ul  {
-  padding-top:120px;
+  padding-top:100px;
+    list-style-type:none;
 }
 .side-menu li a {
   display: block;
   font-size: .9rem;
   text-decoration: none;
+  list-style-type:none;
   color: #FFF;
   height: 60px;
 }
@@ -51,7 +53,7 @@
 }
 .bordermenu {
   border-bottom:1px solid white;
-  margin-top:10px;
-  margin-left:50px;
+  margin-top:-20px;
+  margin-left:60px;
   margin-right:50px;
 }
