@@ -584,11 +584,6 @@ padding-left: 350px;
   .zoom:hover {
     transform: none; 
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media screen and (max-width: 992px) {
-             
 /*=====================================================**
 **                  Banner                             **
 **=====================================================*/
@@ -646,7 +641,7 @@ padding-left: 350px;
     transform: none; 
   }
 
-} 
+
 /*=====================================================**
 **                  Banner2                             **
 **=====================================================*/
@@ -697,8 +692,6 @@ padding-left: 350px;
   margin-top: 5px;
   padding:5px;
 }
-
-
 /*=====================================================**
 **                  REALISATIONS                          **
 **=====================================================*/
@@ -725,8 +718,44 @@ padding-left: 350px;
   padding-left: 30px;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/*=====================================================**
+**                  BLOGINDEX                            **
+**=====================================================*/
+
+.titleB {
+  padding-top: 10px;
+  padding-left:40px;
 
 }
+.paragrapheB {
+  padding-top: 20px;
+  padding-left:70px;
+  padding-right:40px;
 
+}
+.dateB {
+  padding-top: 10px;
+  padding-left:40px;
+}
+
+/*=====================================================**
+**                  BLOGPOST                            **
+**=====================================================*/
+.art {
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:70px;
+  padding-right:40px;
+}
+.paginate{
+  text-align:left;
+}
+.paginate ul {
+  text-transform: lowercase;
+}
+.paginate li {
+  padding-top: 50px;
+  margin-left:70px;
+  margin-right: 40px;  
+}
+}
