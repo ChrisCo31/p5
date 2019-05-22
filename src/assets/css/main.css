@@ -282,17 +282,19 @@ padding-left: 350px;
 }
 
 /*=====================================================**
-**                  PROJETS                          **
+**                  REALISATIONS                          **
 **=====================================================*/
 .container{
   width: auto;
   margin: auto;
   overflow: hidden;
   padding: 50px;
+  background: #91C1E6;
+
 }
 .container h1 {
   margin:50px;
-  color: #000000;
+  color: white;
 }
 .projets {
   width: 500px;
@@ -348,10 +350,7 @@ padding-left: 350px;
   background: #5E7CBA;
 }
 .p-anticiper {
-  background: #5E8EBE;
-}
-.p-creer {
-  background: #91C1E6;
+  background: #00B355;
 }
 .p-adapter {
   background: #67C27D;
@@ -523,9 +522,9 @@ padding-left: 350px;
   font-size: 35px;
   }
 
-/*=====================================================**
-**                  MEDIA QUERIES                      **
-**=====================================================*/
+                                          /*=====================================================**
+                                          **                  MEDIA QUERIES                      **
+                                          **=====================================================*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
            
@@ -648,8 +647,86 @@ padding-left: 350px;
   }
 
 } 
+/*=====================================================**
+**                  Banner2                             **
+**=====================================================*/
+
+.title h1 {
+  font-size: 50px;
+  }
+  .content h3 {
+    font-size: 20px;
+  }
+  /*=====================================================**
+**                  ESS                                **
+**=====================================================*/
+
+#content p{
+  padding-right: 40px;
+}
+.border{
+  margin-right:40px;
+}
+/*=====================================================**
+**                  PRESTATIONS                                **
+**=====================================================*/
+.prestations{
+  margin-left:30px;
+}
+#conseil{
+  padding-left: 10%;
+  padding-right: 5%;
+}
+#formation{
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+#marketing{
+  padding-left: 10%;
+  padding-right: 5%;
+  }
+#design{
+  padding-left: 10%;
+  padding-right: 5%;
+    }
+#developpement{
+  padding-left: 10%;
+  padding-right: 5%;
+}
+#contact {
+  margin-top: 5px;
+  padding:5px;
+}
+
+
+/*=====================================================**
+**                  REALISATIONS                          **
+**=====================================================*/
+.container{
+  padding: 50px;
+}
+.container h1 {
+  color: white;
+  font-size:35px;
+}
+.projets {
+  width: 300px;
+  margin: 40px;
+  padding:10px;
+}
+/*=====================================================**
+**                  Partenariats                          **
+**=====================================================*/
+
+.talk .form {
+  width:300px;
+  height: 600px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
 }
+

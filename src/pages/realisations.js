@@ -70,7 +70,7 @@ class Realisations extends React.Component {
                                 <h4> RESULTAT: </h4>
                                 <p>Rapport d'audit avec préconisations</p>      
                         </div>
-                        <div className="projets p-creer">
+                        <div className="projets p-concevoir">
                                 <h2>COMMUNIQUER</h2>
                                 <h2>PROJET: Création d'un site pour faire découvrir des ressources sur le web</h2>
                                     <h4> CLIENT: Association Kapsul dont l'objet est de faire découvrir des médias alternatifs 
