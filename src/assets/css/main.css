@@ -53,11 +53,19 @@ h6 {
 **                  Banner                             **
 **=====================================================*/
 #banner {
-    width:100%;
-    height: 650px;
-    padding-top: 250px;
-    background-color: #67C27D;
+  width:100%;
+  height: 650px;
+  padding-top: 250px;
+  background: linear-gradient(
+    rgba(103, 194, 125, 0.9), 
+    rgba(103, 194, 125, 0.9)
+    ), url("../../assets/pictures/pic21.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  opacity:0.9;
 }
+
 .title {
   padding-left : 350px;
   padding-top :90px;
@@ -76,7 +84,14 @@ h6 {
   width:100%;
   height: 450px;
   padding-top: 50px;
-  background-color: #67C27D;
+  background: linear-gradient(
+      rgba(103, 194, 125, 0.9), 
+      rgba(103, 194, 125, 0.9)
+      ), url("../../assets/pictures/pic20.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    opacity:0.9;
 }
 .title {
 padding-left : 350px;
@@ -117,13 +132,25 @@ padding-left: 350px;
     display: flex;
 }
 #box_1 {
-    background-color: #91C1E6;
+    background: linear-gradient(
+      rgba(145, 195, 213, 0.9), 
+      rgba(145, 195, 213, 0.9)
+      ), url("../../assets/pictures/pic10.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
     width: 30%;
     height: 500px;
   }
 
 #box_2 {
-    background-color: #5E8EBE;
+  background: linear-gradient(
+    rgba(94, 142, 190, 0.9), 
+    rgba(94, 142, 190, 0.9)
+    ), url("../../assets/pictures/pic01.jpg");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size: cover;
     width: 70%;
     height: 500px;
     color: black !important;
@@ -137,7 +164,13 @@ padding-left: 350px;
   margin-top:230px;
 }
 #box_3 {
-    background-color: #5e7cba;
+    background: linear-gradient(
+      rgba(94, 124, 186, 0.9), 
+      rgba(94, 124, 186, 0.9)
+      ), url("../../assets/pictures/pic04.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
     width: 55%;
     height: 600px;
     padding: 50px;
@@ -160,21 +193,39 @@ padding-left: 350px;
   margin-top: 130px;
 }
 #box_4 {
-    background-color: #67C27D;
+    background: linear-gradient(
+      rgba(103, 194, 125, 0.9), 
+      rgba(103, 194, 125, 0.9)
+      ), url("../../assets/pictures/pic08.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
     width: 33.33%;
     height: 400px;
     
   }
 
 #box_5 {
-    background-color: #00b355;
+    background: linear-gradient(
+      rgba(0, 179, 85, 0.9), 
+      rgba(0, 179, 85, 0.9)
+      ), url("../../assets/pictures/pic11.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
     width: 33.33%;
     height: 400px;
     
   }
 
 #box_6 {
-    background-color: #67C27D;
+    background: linear-gradient(
+      rgba(103, 194, 125, 0.9), 
+      rgba(103, 194, 125, 0.9)
+      ), url("../../assets/pictures/pic13.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
     width: 33.33%;
     height: 400px;
     color: black;
@@ -203,9 +254,16 @@ padding-left: 350px;
 }
 
 #box_9 {
-  width: 100%;
-  height: 100%;
-  background-color: #5E8EBE;
+    background: linear-gradient(
+      rgba(94, 124, 186, 0.9), 
+      rgba(94, 124, 186, 0.9)
+      ), url("../../assets/pictures/pic10.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+    opacity:0.9;
+    width: 100%;
+    height: 100%;
 }
 
 .ess-cont{
@@ -221,6 +279,7 @@ padding-left: 350px;
   padding-top:50px;
 }
 #content p{
+  padding-top:25px;
   padding-right: 250px;
 }
 .border{
@@ -242,31 +301,63 @@ padding-left: 350px;
   background-color:#67C27D;
 }
 #conseil{
-  background-color: #5E8EBE;
+  background: linear-gradient(
+    rgba(94, 142, 190, 0.9), 
+    rgba(94, 142, 190, 0.9)
+    ), url("../../assets/pictures/essContent.jpg");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size: cover;
   padding-top:5%;
   padding-left: 16%;
   padding-bottom: 5%;
 }
 #formation{
-    background-color: #00b355;
+
+    background: linear-gradient(
+      rgba(0, 179, 85, 0.9), 
+      rgba(0, 179, 85, 0.9)
+      ), url("../../assets/pictures/pic05.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
     padding-top:5%;
     padding-left: 16%;
     padding-bottom: 5%;
   }
 #marketing{
-    background-color: #67C27D;
+  background: linear-gradient(
+    rgba(103, 194, 125, 0.9), 
+    rgba(103, 194, 125, 0.9)
+    ), url("../../assets/pictures/pic16.jpg");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size: cover;
     padding-top:5%;
     padding-left: 16%;
     padding-bottom: 5%;
   }
 #design{
+  background: linear-gradient(
+    rgba(145, 193, 230, 0.9), 
+    rgba(145, 193, 230, 0.9)
+    ), url("../../assets/pictures/pic11.jpg");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size: cover;
       background-color: #91C1E6;
       padding-top:5%;
       padding-left: 16%;
       padding-bottom: 5%;
     }
 #developpement{
-  background-color: #5E7CBA;
+  background: linear-gradient(
+      rgba(94, 124, 186, 0.9), 
+      rgba(94, 124, 186, 0.9)
+      ), url("../../assets/pictures/banner.jpg");
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size: cover;
   padding-top:5%;
   padding-left: 16%;
   padding-bottom: 5%;
@@ -289,12 +380,10 @@ padding-left: 350px;
   margin: auto;
   overflow: hidden;
   padding: 50px;
-  background: #91C1E6;
-
 }
 .container h1 {
   margin:50px;
-  color: white;
+  color: #91C1E6;
 }
 .projets {
   width: 500px;
@@ -302,6 +391,7 @@ padding-left: 350px;
   overflow: hidden;
   float: left;
   margin: 50px;
+  border-radius:1%;
 }
 .projets  h2 {
   font-style: bolder;
@@ -344,19 +434,75 @@ padding-left: 350px;
 .projets:hover h2 {
   margin-top: 1px;
 }
-
+#formReal {
+  margin-top: 200px;
+  padding-top:50px;
+  padding-left :20px;
+  padding-right:20px;
+}
+#formReal:hover{
+  margin-top:50px;
+}
+#formReal label{
+  color:#ffffff;
+}
+#formReal input[type=submit]{
+  background-color:rgba(0, 179, 85)
+}
 /*colors*/
-.p-ouvrir {
-  background: #5E7CBA;
+#p-migrer {
+  background: linear-gradient(
+      rgba(94, 124, 186, 0.9), 
+      rgba(94, 124, 186, 0.9)
+      ), url("../../assets/pictures/pic24.jpg");
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size: cover;
 }
-.p-anticiper {
-  background: #00B355;
+#p-prevoir {
+  background: linear-gradient(
+      rgba(0, 179, 85, 0.9), 
+      rgba(0, 179, 85, 0.9)
+      ), url("../../assets/pictures/banner.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
 }
-.p-adapter {
-  background: #67C27D;
+#p-adapter {
+  background: linear-gradient(
+    rgba(103, 194, 125, 0.9), 
+    rgba(103, 194, 125, 0.9)
+    ), url("../../assets/pictures/pic22.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
 }
-.p-concevoir {
-  background: #00B355;
+#p-concevoir {
+  background: linear-gradient(
+    rgba(0, 179, 85, 0.9), 
+    rgba(0, 179, 85, 0.9)
+      ), url("../../assets/pictures/pic26.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+#p-communiquer{
+  background: linear-gradient(
+    rgba(103, 194, 125, 0.9), 
+    rgba(103, 194, 125, 0.9)
+    ), url("../../assets/pictures/pic29.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+#p-lancer {
+  background: linear-gradient(
+      rgba(94, 124, 186, 0.9), 
+      rgba(94, 124, 186, 0.9)
+      ), url("../../assets/pictures/pic27.jpg");
+    background-repeat:no-repeat;
+    background-position:bottom;
+    background-size: cover;
 }
 /*=====================================================**
 **                  Partenariats                          **
@@ -369,42 +515,41 @@ padding-left: 350px;
   padding-left: 150px;
   border-radius: 0.1em;
 }
+
 /*=====================================================**
 **                  Equipe                          **
 **=====================================================*/
-.container{
+.container-equipe{
   width: auto;
-  margin: auto;
+  margin-top: auto;
+  margin-left:230px;
   overflow: hidden;
   padding: 50px;
 }
-.container h1 {
+.container-equipe h1 {
   margin:50px;
-  color: #000000;
+  color: rgba(94, 124, 186, 1);
 }
 .profils {
-  width: 500px;
-  height: 750px;
-  overflow: hidden;
+  width: 400px;
+  height: 400px;
   float: left;
   margin: 50px;
+  border-radius: 1%;
+  text-align: center;
 }
+
 .profils  h2 {
   font-style: bolder;
   font-size: 1em;
   font-weight:normal;
-  padding: 20px 20px 10px 20px;
-  margin: 440px 0 0 0; 
-  -webkit-transition:margin-top 0.3s ease-in;  
-  -moz-transition:margin-top 0.3s ease-in;  
-  -o-transition:margin-top 0.3s ease-in;  
-  transition:margin-top 0.3s ease-in; 
+  padding: 20px;
 }
 .profils  h4 {
   font-size: 0.9em;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 20;
   margin: 0;
   padding-left: 20px;
   padding-bottom: 20px
@@ -427,25 +572,23 @@ padding-left: 350px;
   padding-left: 20px;
   padding-bottom: 50px
 }
-.profils:hover h2 {
-  margin-top: 1px;
-}
 
+.profils img{
+  border-radius: 50%;
+  display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto
+}
 /*colors*/
-.p-ouvrir {
-  background: #5E7CBA;
+.p-dev {
+  background:rgba(94, 124, 186, 1);
 }
-.p-anticiper {
-  background: #5E8EBE;
+.p-design {
+  background: rgba(0, 179, 85, 1)
 }
-.p-creer {
-  background: #91C1E6;
-}
-.p-adapter {
-  background: #67C27D;
-}
-.p-concevoir {
-  background: #00B355;
+.p-market {
+  background: rgba(103, 194, 125, 1)
 }
 
 /*=====================================================**
@@ -522,12 +665,12 @@ padding-left: 350px;
   font-size: 35px;
   }
 
-                                          /*=====================================================**
-                                          **                  MEDIA QUERIES                      **
-                                          **=====================================================*/
-/* Extra small devices (phones, 600px and down) */
+/*=====================================================**
+**                  MEDIA QUERIES                      **
+**=====================================================*/
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
-           
+
 /*=====================================================**
 **                  Banner                             **
 **=====================================================*/
@@ -585,7 +728,7 @@ padding-left: 350px;
     transform: none; 
   }
 /*=====================================================**
-**                  Banner                             **
+**                  Banner2                             **
 **=====================================================*/
 #banner {
     width:100%;
@@ -759,3 +902,246 @@ padding-left: 350px;
   margin-right: 40px;  
 }
 }
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 601px) and (max-width: 800px){
+  
+/*=====================================================**
+**                  Banner                             **
+**=====================================================*/
+
+.title {
+  padding-left : 80px;
+}
+
+/*=====================================================**
+**                  Banner2                             **
+**=====================================================*/
+
+.content h3 {
+  margin-left: -150px;
+}
+.title {
+  padding-left : 80px;
+}
+.content {
+  padding-top: 50px;
+  padding-left: 230px;
+  padding-right:20px;
+  }
+.title .border {
+  border-bottom:1px solid white;
+  margin-top:10px;
+  margin-right:90px;
+}
+
+  /*=====================================================**
+**                  ESS                                **
+**=====================================================*/
+#content h2 {
+  font-size:25px;
+}
+#content p{
+  padding-right: 40px;
+}
+.border{
+  margin-right:60px;
+}
+/*=====================================================**
+**                  PRESTATIONS                                **
+**=====================================================*/
+
+#contact {
+  width:1200px;
+  margin-top: 10px;
+  padding-top:10px;
+  padding-left:100px;
+}
+.prestations{
+  margin-left:40px;
+}
+#conseil{
+  padding-left: 10%;
+}
+#formation{
+    padding-left: 10%;
+  }
+#marketing{
+    padding-left: 10%;
+  }
+#design{
+      padding-left: 10%;
+    }
+#developpement{
+  padding-left: 10%;
+}
+.prestations li {
+  padding:1%;
+}
+/*=====================================================**
+**                  REALISATIONS                          **
+**=====================================================*/
+.container{
+  padding-left: 50px;
+  padding-right:20px;
+}
+.container h1 {
+  color: white;
+}
+.projets {
+  width: 500px;
+  padding:10%;
+  margin-left: 10%;
+  margin-right:5%;
+}
+/*=====================================================**
+**                  PARTENARIATS                          **
+**=====================================================*/
+.talk .form {
+  width:600px;
+  padding-left:10px;
+  padding-right: 150px;
+}
+/*=====================================================**
+**                  Equipe                          **
+**=====================================================*/
+.container{
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+.container h1 {
+  margin:50px;
+}
+.profils {
+  width: 600px;
+  margin-left: 10%;
+  margin-right:20px;
+  
+}
+
+/*=====================================================**
+**                  BLOGPOST                            **
+**=====================================================*/
+.art {
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:150px;
+  padding-right:40px;
+}
+.paginate{
+  text-align:left;
+}
+.paginate ul {
+  text-transform: lowercase;
+}
+.paginate li {
+  margin-left:150px;
+  margin-right: 150px;  
+}
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+  /*=====================================================**
+**                  Banner                             **
+**=====================================================*/
+.title {
+  padding-left : 80px;
+  padding-top:1px;
+}
+.content {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+/*=====================================================**
+**                  Index                             **
+**=====================================================*/
+#first {
+  flex-direction: column;
+}
+#box_1 {
+  width:100%;
+}
+#box_2 {
+width:100%;
+}
+#second {
+  flex-direction: column;
+}
+#box_3 {
+  width:100%;
+}
+#box_3 h3 {
+  padding-left : 20px;
+}
+#box_contact {
+width:100%;
+margin-left:25px;
+}
+#third{
+  flex-direction: column;
+}
+#box_4 {
+  width:100%;
+}
+#box_5 {
+width:100%;
+}
+#box_6 {
+width:100%;
+} 
+/*=====================================================**
+**                  Banner2                             **
+**=====================================================*/
+
+.title {
+padding-left : 100px;
+padding-top:100px;
+}
+.content {
+padding-top: 35px;
+padding-left: 100px;
+padding-right:20px;
+}
+/*=====================================================**
+**                  Equipe                          **
+**=====================================================*/
+.container{
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+.container h1 {
+  margin:50px;
+}
+.profils {
+  width: 800px;
+  margin-left: 10%;
+  margin-right:20px;
+  padding:5%;
+}
+
+/*=====================================================**
+**                  BLOGPOST                            **
+**=====================================================*/
+.art {
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:150px;
+  padding-right:40px;
+}
+.paginate{
+  text-align:left;
+}
+.paginate ul {
+  text-transform: lowercase;
+}
+.paginate li {
+  margin-left:150px;
+  margin-right: 220px;  
+}
+}
+  @media only screen and (min-width: 1025px) and (max-width: 1280px){}
+
+
+  @media only screen and (min-width: 1281px) and (max-width: 1440px){}

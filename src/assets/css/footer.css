@@ -2,10 +2,9 @@
     font-size: 1em;
     list-style: none;
     margin:135px;
-    height : 450px;
+    height : 400px;
     background-color: #E8E8E8;
-    color: #5e7cba;
-    
+    color: #5e7cba;   
 }
 
 #link {
@@ -45,4 +44,16 @@ footer li {
     line-height:1px;
 }
 
+}
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    #footer{
+        margin:50px;
+        text-align: center;
+    }
+    .infosPrat p {
+        line-height:1px;
+    }
+    footer p{
+        padding-left:30px;
+    }
 }

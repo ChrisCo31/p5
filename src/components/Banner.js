@@ -1,8 +1,11 @@
 import React from "react";
 
 
+
+
 const Banner = () => (
   <section id="banner">
+    
     <div className="banner">
         <header className="title">
             <h1>Prométhée</h1>

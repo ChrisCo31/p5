@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout2 from '../components/Layout2'
+import Contact from '../components/Contact'
 
 
 class Realisations extends React.Component {
@@ -8,8 +9,8 @@ class Realisations extends React.Component {
             <Layout2>
                  <div className="container">
                     <h1>Réalisations</h1>
-                        <div className="projets p-ouvrir">                           
-                                <h2>TRANSFORMER</h2>
+                        <div className="projets" id="p-migrer">                           
+                                <h2>MIGRER</h2>
                                 <h2>PROJET: Migration du parc informatique vers des solutions logicielles libres </h2>
                                 <h4> CLIENT: Mairie</h4>    	
                         
@@ -31,8 +32,8 @@ class Realisations extends React.Component {
                                 <h4> RESULTAT: </h4>
                                 <p>Migration de 80% du parc informatique sous Linux Mint en 9 mois</p>      
                         </div>
-                        <div className="projets p-anticiper">
-                                    <h2>ANTICIPER</h2>
+                        <div className="projets" id="p-prevoir">
+                                    <h2>PREVOIR</h2>
                                     <h2>PROJET: Schéma Directeur du Numérique </h2>
                                     <h4> CLIENT: Communauté d’Agglomération</h4>                          
                                     <h4> ADN: </h4>
@@ -51,7 +52,7 @@ class Realisations extends React.Component {
                                     <h4> RESULTAT: </h4>
                                 <p>Schéma Directeur et planification des projets retenus</p>      
                         </div>
-                        <div className="projets p-adapter">
+                        <div className="projets" id="p-adapter">
                                     <h2> ADAPTER</h2>
                                     <h2>PROJET: Audit de conformité RGPD </h2>
                                     <h4> CLIENT: Service Départemental d'Incendie et de Secours</h4>
@@ -70,13 +71,13 @@ class Realisations extends React.Component {
                                 <h4> RESULTAT: </h4>
                                 <p>Rapport d'audit avec préconisations</p>      
                         </div>
-                        <div className="projets p-concevoir">
-                                <h2>COMMUNIQUER</h2>
+                        <div className="projets" id="p-concevoir">
+                                <h2>CONCEVOIR</h2>
                                 <h2>PROJET: Création d'un site pour faire découvrir des ressources sur le web</h2>
-                                    <h4> CLIENT: Association Kapsul dont l'objet est de faire découvrir des médias alternatifs 
-                                        en ligne et de proposer une plateforme unique pour les découvrir</h4>
+                                    <h4> CLIENT: Association Kapsul</h4>
                                 <h4> ADN: </h4>
-                                <p> Site avec fonctionnalités multiples et developpement continu sur le long terme</p>
+                                <p> Site avec fonctionnalités multiples et developpement continu sur le long terme. L'objet : Faire découvrir
+                                    des médias alternatifs via une plateforme unique et mettre en place un espace membre</p>
                                 <h4> ENJEUX/CHALLENGE: </h4>
                                 <ul>Deux phases: 
                                     <li>Structure pour recueillir et afficher les ressources</li>
@@ -88,7 +89,6 @@ class Realisations extends React.Component {
                                     <li>Réunion de cadrage de la mission : enjeux, organisation, planning</li>
                                     <li>Elaboration du cahier des charges fonctionnel et technique</li>
                                     <li>Développement du site</li>
-                                    <li>Présentation de la maquette au client</li>
                                     <li>Tests et Ajustement </li>
                                     <li>Déploiement et suivi</li>
                                 </ul>
@@ -98,6 +98,32 @@ class Realisations extends React.Component {
                                     <li>Phase 1 : en cours d'achevement</li>
                                     <li>Phase 2 : deuxieme semestre 2019</li>
                                 </ul>
+                        </div>
+                        <div className="projets" id="p-communiquer">
+                                    <h2> COMMUNIQUER</h2>
+                                    <h2>PROJET:  Piloter les campagnes de promotion de l’application mobile Tour Guide </h2>
+                                    <h4> CLIENT: Tour Guide</h4>
+                                <h4> ADN: </h4>
+                                <p>  Mettre en place des stratégies adaptées à l’application Tour Guide</p>
+                                <h4> ENJEUX/CHALLENGE: </h4>
+                                <p>Répartir le budget sur les 6 mois et en fonction des campagnes choisies: SEA et Mailing</p>
+                                    <h4>METHODOLOGIE: </h4>
+                                    <ul>
+                                    <li>Audit de la landing page actuelle Tour Guide </li>
+                                    <li>Optimisation de la Landing Page en proposant une nouvelle Landing Page  </li>
+                                    <li>Etude du marché: le E-Tourisme + M-Tourisme et M-Commerce en Europe et en Amérique du Nord</li>     
+                                    <li>Analyse de la concurrence + benchmark – Création des personas pour mieux cibler et segmenter l’audience TG</li>    
+                                    <li>Mise en place de la stratégie des différentes campagnes TG</li>
+                                    <li>Rapport d’audit et construction du plan actions</li>
+                                    </ul>
+                                <h4> RESULTAT: </h4>
+                                <p>Rédaction & Présentation des différents livrables</p>      
+                        </div>
+                        <div className="projets" id="p-lancer">
+                                    <h2> S'ELANCER</h2>
+                                    <div id="formReal">
+                                    <Contact />
+                                    </div>    
                         </div>
                   </div>
            

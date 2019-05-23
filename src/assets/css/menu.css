@@ -7,12 +7,11 @@
   height: 100%;
   width: 60px;
   list-style-type: none;
-  background: black;;
+  background: black;
   overflow: hidden;
   transition: width .5s;
   z-index:3;
 }
-
 .side-menu:hover {
   width: 325px;
 }
@@ -22,11 +21,16 @@
   margin: 20px 30px 0 62px;
   list-style-type:none;
 }
+.side-menu a {
+  text-decoration: none;
+  color: #FFF;
+}
 .side-menu h3  {
   
   margin-top: 120px;
   margin-left: 65px;
   color: #FFF;
+  text-decoration: none;
 }
 .side-menu p  {
   
@@ -60,19 +64,29 @@
 /*=====================================================**
 **                  MEDIA QUERIES                      **
 **=====================================================*/
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .side-menu:hover {
     width: 414px;
   }
 }
-@media screen and (max-width: 992px) {
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+  /* Styles */
   .side-menu:hover {
-    width:995px;
+    width: 220px;
   }
-}
+  }
 
 
+  
+  @media only screen and (min-width: 801px) and (max-width: 1024px) {}
+
+
+
+  @media only screen and (min-width: 1025px) and (max-width: 1280px){}
+
+
+  @media only screen and (min-width: 1281px) and (max-width: 1440px){}
 
 
 

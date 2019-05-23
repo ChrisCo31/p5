@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const Menu = (props) => (
     <div className="menu">
             <div className="side-menu">
-            <h3>Prométhée</h3>
+            <h3><Link to="/">Prométhée</Link></h3>
                 <p>Agence digitale ESS</p>
                 <ul>
                     <li id='es'><Link to="/ess"><i>ESS ?</i></Link></li>
