@@ -2,6 +2,7 @@ import React from 'react'
 import Layout2 from '../components/Layout2'
 
 import Rasko31 from '../assets/pictures/rasko31.png'
+import Alex from '../assets/pictures/alex.png'
 
 
 class Equipe extends React.Component {
@@ -22,7 +23,7 @@ class Equipe extends React.Component {
                         <div className="profils p-market">
                             <h2>ALEX</h2>
                             <img
-                                src={Rasko31} 
+                                src={Alex} 
                                 alt="portrait de christel"
                                 height="170px" 
                                 width="170px" />

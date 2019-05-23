@@ -57,8 +57,8 @@ h6 {
   height: 650px;
   padding-top: 250px;
   background: linear-gradient(
-    rgba(103, 194, 125, 0.9), 
-    rgba(103, 194, 125, 0.9)
+    rgba(103, 194, 125, 0.7), 
+    rgba(103, 194, 125, 0.7)
     ), url("../../assets/pictures/pic21.jpg");
   background-repeat:no-repeat;
   background-position:center;
@@ -85,8 +85,8 @@ h6 {
   height: 450px;
   padding-top: 50px;
   background: linear-gradient(
-      rgba(103, 194, 125, 0.9), 
-      rgba(103, 194, 125, 0.9)
+      rgba(103, 194, 125, 0.7), 
+      rgba(103, 194, 125, 0.7)
       ), url("../../assets/pictures/pic20.jpg");
     background-repeat:no-repeat;
     background-position:center;
@@ -133,8 +133,8 @@ padding-left: 350px;
 }
 #box_1 {
     background: linear-gradient(
-      rgba(145, 195, 213, 0.9), 
-      rgba(145, 195, 213, 0.9)
+      rgba(145, 195, 213, 0.7), 
+      rgba(145, 195, 213, 0.7)
       ), url("../../assets/pictures/pic10.jpg");
     background-repeat:no-repeat;
     background-position:center;
@@ -145,8 +145,8 @@ padding-left: 350px;
 
 #box_2 {
   background: linear-gradient(
-    rgba(94, 142, 190, 0.9), 
-    rgba(94, 142, 190, 0.9)
+    rgba(94, 142, 190, 0.7), 
+    rgba(94, 142, 190, 0.7)
     ), url("../../assets/pictures/pic01.jpg");
   background-repeat:no-repeat;
   background-position:right;
@@ -165,8 +165,8 @@ padding-left: 350px;
 }
 #box_3 {
     background: linear-gradient(
-      rgba(94, 124, 186, 0.9), 
-      rgba(94, 124, 186, 0.9)
+      rgba(94, 124, 186, 0.7), 
+      rgba(94, 124, 186, 0.7)
       ), url("../../assets/pictures/pic04.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -194,8 +194,8 @@ padding-left: 350px;
 }
 #box_4 {
     background: linear-gradient(
-      rgba(103, 194, 125, 0.9), 
-      rgba(103, 194, 125, 0.9)
+      rgba(103, 194, 125, 0.7), 
+      rgba(103, 194, 125, 0.7)
       ), url("../../assets/pictures/pic08.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -207,8 +207,8 @@ padding-left: 350px;
 
 #box_5 {
     background: linear-gradient(
-      rgba(0, 179, 85, 0.9), 
-      rgba(0, 179, 85, 0.9)
+      rgba(0, 179, 85, 0.7), 
+      rgba(0, 179, 85, 0.7)
       ), url("../../assets/pictures/pic11.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -220,8 +220,8 @@ padding-left: 350px;
 
 #box_6 {
     background: linear-gradient(
-      rgba(103, 194, 125, 0.9), 
-      rgba(103, 194, 125, 0.9)
+      rgba(103, 194, 125, 0.7), 
+      rgba(103, 194, 125, 0.7)
       ), url("../../assets/pictures/pic13.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -255,8 +255,8 @@ padding-left: 350px;
 
 #box_9 {
     background: linear-gradient(
-      rgba(94, 124, 186, 0.9), 
-      rgba(94, 124, 186, 0.9)
+      rgba(94, 124, 186, 0.7), 
+      rgba(94, 124, 186, 0.7)
       ), url("../../assets/pictures/pic10.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -302,8 +302,8 @@ padding-left: 350px;
 }
 #conseil{
   background: linear-gradient(
-    rgba(94, 142, 190, 0.9), 
-    rgba(94, 142, 190, 0.9)
+    rgba(94, 142, 190, 0.7), 
+    rgba(94, 142, 190, 0.7)
     ), url("../../assets/pictures/essContent.jpg");
   background-repeat:no-repeat;
   background-position:right;
@@ -315,8 +315,8 @@ padding-left: 350px;
 #formation{
 
     background: linear-gradient(
-      rgba(0, 179, 85, 0.9), 
-      rgba(0, 179, 85, 0.9)
+      rgba(0, 179, 85, 0.7), 
+      rgba(0, 179, 85, 0.7)
       ), url("../../assets/pictures/pic05.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -327,8 +327,8 @@ padding-left: 350px;
   }
 #marketing{
   background: linear-gradient(
-    rgba(103, 194, 125, 0.9), 
-    rgba(103, 194, 125, 0.9)
+    rgba(103, 194, 125, 0.7), 
+    rgba(103, 194, 125, 0.7)
     ), url("../../assets/pictures/pic16.jpg");
   background-repeat:no-repeat;
   background-position:right;
@@ -339,8 +339,8 @@ padding-left: 350px;
   }
 #design{
   background: linear-gradient(
-    rgba(145, 193, 230, 0.9), 
-    rgba(145, 193, 230, 0.9)
+    rgba(145, 193, 230, 0.7), 
+    rgba(145, 193, 230, 0.7)
     ), url("../../assets/pictures/pic11.jpg");
   background-repeat:no-repeat;
   background-position:right;
@@ -352,8 +352,8 @@ padding-left: 350px;
     }
 #developpement{
   background: linear-gradient(
-      rgba(94, 124, 186, 0.9), 
-      rgba(94, 124, 186, 0.9)
+      rgba(94, 124, 186, 0.7), 
+      rgba(94, 124, 186, 0.7)
       ), url("../../assets/pictures/banner.jpg");
     background-repeat:no-repeat;
     background-position:bottom;
@@ -452,8 +452,8 @@ padding-left: 350px;
 /*colors*/
 #p-migrer {
   background: linear-gradient(
-      rgba(94, 124, 186, 0.9), 
-      rgba(94, 124, 186, 0.9)
+      rgba(94, 124, 186, 0.7), 
+      rgba(94, 124, 186, 0.7)
       ), url("../../assets/pictures/pic24.jpg");
     background-repeat:no-repeat;
     background-position:bottom;
@@ -461,8 +461,8 @@ padding-left: 350px;
 }
 #p-prevoir {
   background: linear-gradient(
-      rgba(0, 179, 85, 0.9), 
-      rgba(0, 179, 85, 0.9)
+      rgba(0, 179, 85, 0.7), 
+      rgba(0, 179, 85, 0.7)
       ), url("../../assets/pictures/banner.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -470,8 +470,8 @@ padding-left: 350px;
 }
 #p-adapter {
   background: linear-gradient(
-    rgba(103, 194, 125, 0.9), 
-    rgba(103, 194, 125, 0.9)
+    rgba(103, 194, 125, 0.7), 
+    rgba(103, 194, 125, 0.7)
     ), url("../../assets/pictures/pic22.jpg");
   background-repeat:no-repeat;
   background-position:center;
@@ -479,8 +479,8 @@ padding-left: 350px;
 }
 #p-concevoir {
   background: linear-gradient(
-    rgba(0, 179, 85, 0.9), 
-    rgba(0, 179, 85, 0.9)
+    rgba(0, 179, 85, 0.7), 
+    rgba(0, 179, 85, 0.7)
       ), url("../../assets/pictures/pic26.jpg");
     background-repeat:no-repeat;
     background-position:right;
@@ -488,8 +488,8 @@ padding-left: 350px;
 }
 #p-communiquer{
   background: linear-gradient(
-    rgba(103, 194, 125, 0.9), 
-    rgba(103, 194, 125, 0.9)
+    rgba(103, 194, 125, 0.7), 
+    rgba(103, 194, 125, 0.7)
     ), url("../../assets/pictures/pic29.jpg");
   background-repeat:no-repeat;
   background-position:center;
@@ -497,8 +497,8 @@ padding-left: 350px;
 }
 #p-lancer {
   background: linear-gradient(
-      rgba(94, 124, 186, 0.9), 
-      rgba(94, 124, 186, 0.9)
+      rgba(94, 124, 186, 0.7), 
+      rgba(94, 124, 186, 0.7)
       ), url("../../assets/pictures/pic27.jpg");
     background-repeat:no-repeat;
     background-position:bottom;
