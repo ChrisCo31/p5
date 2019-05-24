@@ -56,7 +56,7 @@ class HomeIndex extends React.Component {
                                 </Link>
                             </article>
                             <article className="zoom" id="box_6" >
-                                <Link to="/blog" id="link" >
+                                <Link to="/IndexBlog" id="link" >
                                     <header className="major">
                                         <h3>Visitez notre Blog</h3>
 

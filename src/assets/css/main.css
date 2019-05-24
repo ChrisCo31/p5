@@ -599,20 +599,21 @@ padding-left: 350px;
   padding-top:100px;
   padding-bottom:150px;
   background-color: #5E8EBE!important;
+  text-align: center
 }
 .formBlog a{
   color: #ffffff!important;
   font-size: 35px;
+  text-decoration: none;
 }
 .titleB {
   padding-top: 50px;
   text-align: center;
 }
 .paragrapheB {
-  padding-top: 20px;
-  padding-left:150px;
-  padding-right:150px;
-  text-align: center;
+  padding-top:2%;
+  padding-left:30%;
+  padding-right:30%;
 }
 .dateB {
   padding-top: 20px;
@@ -628,7 +629,31 @@ padding-left: 350px;
   padding-left:350px;
   padding-right:450px;
   background-color: #5E8EBE!important;
-
+  text-decoration: none;
+  color: white; 
+}
+.art a {
+  color:#ffffff;
+}
+.art h1 {
+  text-align: center;
+}
+.art.dateB{
+  text-align: center;
+}
+.art h2 {
+  color:#ffffff;
+  padding:25px;
+  text-align: center;
+}
+.art p {
+  color:#ffffff;
+  padding-top:2%;
+  padding-left:10%;
+  font-size: 18px;
+}
+.art img {
+  border-radius: 100%;
 }
 .paginate{
   text-align:center;

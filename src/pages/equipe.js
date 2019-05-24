@@ -15,7 +15,7 @@ class Equipe extends React.Component {
                             <h2>CHRISTEL</h2>
                             <img
                                 src={Rasko31} 
-                                alt="portrait de christel"
+                                alt="portrait Christel"
                                 height="170px" 
                                 width="170px" />                                   
                             <h3>Developpement </h3>    	
@@ -24,7 +24,7 @@ class Equipe extends React.Component {
                             <h2>ALEX</h2>
                             <img
                                 src={Alex} 
-                                alt="portrait de christel"
+                                alt="portrait Alex"
                                 height="170px" 
                                 width="170px" />
                             <h3>Marketing  </h3>    	
@@ -33,7 +33,7 @@ class Equipe extends React.Component {
                             <h2> CLEMENT</h2>
                             <img
                                 src={Rasko31} 
-                                alt="portrait de christel"
+                                alt="portrait Clement"
                                 height="170px" 
                                 width="170px" />                                    
                             <h3>Design </h3>    	

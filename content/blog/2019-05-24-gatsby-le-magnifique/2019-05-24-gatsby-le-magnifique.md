@@ -3,11 +3,13 @@ title: Gatsby le magnifique  ?
 date: 2019-05-24T09:30:40.029Z
 description: >-
   Loin de moi l’idée de discuter la valeur de ce qui est considéré comme un chef
-  d’oeuvre de la littérature mondiale. Non, le Gatsby du jour est un générateur
+  d’oeuvre de la littérature mondiale. Non, le Gatsby dont il sera question ici est un générateur
   de site statique (GSS) qui connaît lui aussi une certaine popularité mais en
   matière de développement web.
 ---
-Souhaitant le faire découvrir sans pour autant verser dans l’enthousiasme béat du développeur devant un nouveau jouet, nous optons pour une présentation avec l’incontournable [Wordpress](https://fr.wordpress.com) en maître étalon.
+**Souhaitant le faire découvrir sans pour autant verser dans l’enthousiasme béat du développeur devant un nouveau jouet, nous optons pour une présentation avec l’incontournable [Wordpress](https://fr.wordpress.com) en maître étalon.**
+
+
 
 ## Les prérequis
 
@@ -19,15 +21,15 @@ L’installation est simple, trois commandes, rien de bien complexe en soi si l�
 
 **Les ressources** 
 
-* La communauté : Il est évident que face au géant  du web qu’est Wordpress (30% des sites), Gatsby fait figure de petit poucet bien en peine de rivaliser. Pourtant, un rapide coup d’oeil sur[ github](https://github.com/gatsbyjs/gatsby) montre une communauté dynamique, réactive et soucieuse d'améliorer la structure du code, de proposer solutions et compléments d’informations.. 
+La communauté : Il est évident que face au géant  du web qu’est Wordpress (30% des sites), Gatsby fait figure de petit poucet bien en peine de rivaliser. Pourtant, un rapide coup d’oeil sur[ github](https://github.com/gatsbyjs/gatsby) montre une communauté dynamique, réactive et soucieuse d'améliorer la structure du code, de proposer solutions et compléments d’informations.. 
 
 
 
-* La documentation : [Gatsby](https://www.gatsbyjs.org/) propose sur son site une documentation ainsi qu’un tutoriel susceptible de vous accompagner dans vos premiers pas. Claire, progressive et complète, elle  est un incontournable à la découverte.
+La documentation : [Gatsby](https://www.gatsbyjs.org/) propose sur son site une documentation ainsi qu’un tutoriel susceptible de vous accompagner dans vos premiers pas. Claire, progressive et complète, elle  est un incontournable à la découverte.
 
 
 
-* Un bémol, néanmoins...Si les ressources et  une communauté active existe et se développe autour de Gatsby celle-ci n’est qu’ anglophone. Les ressources en français sont, en effet totalement inexistante. Cette situation s’améliorera peut être avec le succès grandissant de la plateforme mais en l'état, l’anglais est obligatoire !
+Un bémol, néanmoins...Si les ressources et  une communauté active existe et se développe autour de Gatsby celle-ci n’est qu’ anglophone. Les ressources en français sont, en effet totalement inexistante. Cette situation s’améliorera peut être avec le succès grandissant de la plateforme mais en l'état, l’anglais est obligatoire !
 
 
 
@@ -35,7 +37,7 @@ L’installation est simple, trois commandes, rien de bien complexe en soi si l�
 
 **RéactJS**
 
-* Gatsby est construit sur une base [ReactJS ](https://reactjs.org/)qui est une bibliothèque javascript développé par Facebook. L’un de ses avantages est que les pages générées ne sont pas rechargées. Cette rapidité est l’un des objectifs poursuivi par les créateurs de Gatsby, affiché sur la page du site comme un mantra : 
+Gatsby est construit sur une base [ReactJS ](https://reactjs.org/)qui est une bibliothèque javascript développé par Facebook. L’un de ses avantages est que les pages générées ne sont pas rechargées. Cette rapidité est l’un des objectifs poursuivi par les créateurs de Gatsby, affiché sur la page du site comme un mantra : 
 
 > “Fast in every way that matters” ou “Rapide partout où cela compte”.
 
@@ -47,9 +49,9 @@ L’installation est simple, trois commandes, rien de bien complexe en soi si l�
 
 **Templates,  packages manager et plugin**
 
-* En terme de ressources, Gatsby c’est quelques centaines de plugin, rien de comparable au près de 40 000 plugin annoncé par WordPress. Cela peut cependant être un atout pour qui cherche à développer un site rapidement : Nul besoin d’y passer des heures... Toute personne ayant ressenti un jour le sentiment de submersion face aux choix d’un thème sous WP  comprendra ;-)
-* Revers de la médaille, le choix bien moins important de thème empêche souvent de trouver le template qui colle parfaitement à ce que l’on souhaite mettre en place...Rédhibitoire pour qui n’est pas prêt à mettre le nez sous le capot.
-* Coté compatibilité des différents plugins, package manager et versions, cela peut parfois se compliquer sans que le problème soit aisément identifiable et, surtout, résolvable. La conséquence est que ces problèmes peuvent  faire perdre le temps que l’on cherchait justement à gagner.
+En terme de ressources, Gatsby c’est quelques centaines de plugin, rien de comparable au près de 40 000 plugin annoncé par WordPress. Cela peut cependant être un atout pour qui cherche à développer un site rapidement : Nul besoin d’y passer des heures... Toute personne ayant ressenti un jour le sentiment de submersion face aux choix d’un thème sous WP  comprendra ;-)
+Revers de la médaille, le choix bien moins important de thème empêche souvent de trouver le template qui colle parfaitement à ce que l’on souhaite mettre en place...Rédhibitoire pour qui n’est pas prêt à mettre le nez sous le capot.
+Coté compatibilité des différents plugins, package manager et versions, cela peut parfois se compliquer sans que le problème soit aisément identifiable et, surtout, résolvable. La conséquence est que ces problèmes peuvent  faire perdre le temps que l’on cherchait justement à gagner.
 
 
 
@@ -83,11 +85,10 @@ En terme de déploiement, ils sont possible à partir des repository fait sur [G
 
 **Le passage au mobile**
 
-\    Gatsby a été créé il y a moins de 5 ans. Ces créateurs l’ont donc immédiatement pensé mobile. C’est un atout incontestable à l’heure où l'accès au web se fait de plus en plus via un mobile. Le passage d'un iste web statique a une application mobile étant pensé dés l'origine, l'operation est aisée.
+Gatsby a été créé il y a moins de 5 ans. Ces créateurs l’ont donc immédiatement pensé mobile. C’est un atout incontestable à l’heure où l'accès au web se fait de plus en plus via un mobile. Le passage d'un iste web statique a une application mobile étant pensé dés l'origine, l'operation est aisée.
 
 ##  So What ?
-
-\    
+  
 
 Le recours à Gatsby  ne nous semble pas relever du premier choix  pour le non professionnel qui souhaite déployer un site rapidement. (La courbe d’apprentissage n’a clairement pas la même allure que celle de WP.)
 
