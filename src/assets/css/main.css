@@ -653,7 +653,7 @@ padding-left: 350px;
   font-size: 18px;
 }
 .art img {
-  border-radius: 100%;
+  border-radius: 1%;
 }
 .paginate{
   text-align:center;
