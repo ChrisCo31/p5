@@ -596,8 +596,9 @@ padding-left: 350px;
 **=====================================================*/
 
 .formBlog{
-  padding-top:100px;
   padding-bottom:150px;
+  padding-left:10%;
+  padding-right:10%;
   background-color: #5E8EBE!important;
   text-align: center
 }
@@ -607,7 +608,9 @@ padding-left: 350px;
   text-decoration: none;
 }
 .titleB {
-  padding-top: 50px;
+  padding-top: 5%;
+  padding-left:10%;
+  padding-right:10%;
   text-align: center;
 }
 .paragrapheB {

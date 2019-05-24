@@ -2,15 +2,12 @@
 title: ' Infographie : Les chiffres clés du Digital en France en 2018'
 date: 2019-05-24T12:41:37.175Z
 description: >-
-  Le Digital en France et pourquoi il est nécessaire d’évoluer digitalement (en
-  lien avec les audits, conseils et accompagnements personnalisés, formations
-  digitales, la mise en place de stratégie digitale innovante, …)
+  Le Digital en France et pourquoi il est nécessaire d’évoluer digitalement Prendre conscience des évolutions du digital (s’acculturer) pour mieux appréhender sa transformation digitale et ainsi se décider à mettre en place de nouvelles stratégies digitales efficaces (grâce à des agences digitales ou des experts qui les accompagnent tout au long de leur processus de digitalisation).
 ---
 
 ![Activites hebdomadaires par device](./Activités hebdo - Le Digital France 2018.jpg)
 ##Problématique & réponse à cette problématique : ##
 
-Prendre conscience des évolutions du digital (s’acculturer) pour mieux appréhender sa transformation digitale et ainsi se décider à mettre en place de nouvelles stratégies digitales efficaces (grâce à des agences digitales ou des experts qui les accompagnent tout au long de leur processus de digitalisation).
 
 Le dernier rapport Hootsuite/We Are Social (2018) autour du Digital en France nous prouve une fois de plus à quel point l’univers du Digital fait partie de notre vie quotidienne à tous, ou presque…
 
