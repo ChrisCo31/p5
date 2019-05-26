@@ -21,11 +21,7 @@ section {
   vertical-align: baseline;
 }
 
-ul, li,a 
-{
-text-decoration:none;
-list-style-type:none;
-}
+
 h1 {
     font-size: 2.5em;
 }
@@ -65,7 +61,9 @@ h6 {
   background-size: cover;
   opacity:0.9;
 }
-
+.logo{
+  margin-right:10px;
+}
 .title {
   padding-left : 350px;
   padding-top :90px;
@@ -299,6 +297,9 @@ padding-left: 350px;
 .prestations{
   margin-left:60px;
   background-color:#67C27D;
+}
+.prestations h2 {
+  padding-bottom:1%;
 }
 #conseil{
   background: linear-gradient(
@@ -867,7 +868,7 @@ padding-left: 350px;
 **                  REALISATIONS                          **
 **=====================================================*/
 .container{
-  padding: 50px;
+  padding: 25px;
 }
 .container h1 {
   color: white;
@@ -888,6 +889,28 @@ padding-left: 350px;
   padding-top: 30px;
   padding-left: 30px;
 }
+/*=====================================================**
+**                  Equipe                          **
+**=====================================================*/
+.container-equipe{
+  width: auto;
+  margin-top: auto;
+  margin-left:-10px;
+  overflow: hidden;
+  padding: 25px;
+}
+
+.profils {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 50px;
+  border-radius: 1%;
+  text-align: center;
+}
+
+
+
 
 /*=====================================================**
 **                  BLOGINDEX                            **

@@ -9,7 +9,7 @@ const Footer = (props) => (
         <div className="footerComp">
             <ul className="icons">
                 <a href="https://twitter.com/ChristelCoeur" className="fab fa-twitter"><span className="label"></span></a>
-                <a href="https://github.com/ChrisCo31" className="fab fa-github"><span className="label"></span></a>
+                <a href="https://github.com/ChrisCo31" className="fab fa-facebook"><span className="label"></span></a>
                 <a href="https://www.linkedin.com/in/christel-coeur-developpement/" className="fab fa-linkedin"><span className="label"></span></a>
             </ul>      
         </div><br />

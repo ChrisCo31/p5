@@ -12,6 +12,9 @@
   transition: width .5s;
   z-index:3;
 }
+.term {
+  margin-left:-60px;
+}
 .side-menu:hover {
   width: 325px;
 }
@@ -21,25 +24,37 @@
   margin: 20px 30px 0 62px;
   list-style-type:none;
 }
+.side-menu .icons {
+  margin-top: -20px;
+  margin-left:80px;
+  list-style-type:none;
+}
+.side-menu .icons a{
+  margin-left:3%;
+  list-style-type:none;
+}
+.side-menu p  {
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-left:20px;
+  list-style-type:none;
+  padding-left: 65px;
+  color: #FFF;
+}
 .side-menu a {
   text-decoration: none;
   color: #FFF;
 }
 .side-menu h3  {
   
-  margin-top: 120px;
+  margin-top: 180px;
   margin-left: 65px;
   color: #FFF;
   text-decoration: none;
 }
-.side-menu p  {
-  
-  padding-top:10px;
-  padding-left: 65px;
-  color: #FFF;
-}
+
 .side-menu ul  {
-  padding-top:100px;
+  padding-top:120px;
     list-style-type:none;
 }
 .side-menu li a {
