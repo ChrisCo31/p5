@@ -16,9 +16,11 @@ const Footer = (props) => (
         <div className="infosPrat">
         <p>Ouvert du lundi au vendredi</p>
         <p>De 9h à 18h</p><br />
-
+        <br />
         <p>Telephone : 09.42.42.42.42</p>
         <p>Mail: Contact@Promethee.com</p>
+        <p>42 avenue des Limousines</p>
+        <p>87 000 Limoges</p>
 
         </div>
         <div className="copyright">

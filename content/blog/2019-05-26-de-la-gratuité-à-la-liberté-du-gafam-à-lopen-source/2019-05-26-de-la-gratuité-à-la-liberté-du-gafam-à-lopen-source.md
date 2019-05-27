@@ -45,13 +45,7 @@ Ils sont omniprésents :
 
 Tout est tellement simple, fluide évident. Leur omniprésence est le moteur de notre paresse… Et leur plus grande victoire n’est-elle pas d’ailleurs là ?
 
-* Google et ses 220 services : Photo
-* Amazon : la pieuvre
-* Facebook : la data sociale
-* Apple : le système fermé
-* Microsoft : photo des produits Microsoft
-
-
+![Logo des Gafam](./gafam_logo.jpeg)
 
 
 
@@ -72,3 +66,5 @@ Chercher : Pour chaque service proposé, une alternative existe et elle dispose 
 
 
 Je le vois bien vous hésitez : Si si, ne niez pas ! C’est vrai après tout, par quoi commencer ?  Je vous l’ai dit, vous n'êtes pas seul : On vous a concocté un petit tableau qui vous propose des alternatives aux GAFAM. Incomplet bien sûr, mais on aimerait l’enrichir au fur et à mesure de nos découvertes… Et des vôtres !
+
+![tableau des alternatives au GAFAm](./Du Gafam à l'Open source.png)

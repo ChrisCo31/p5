@@ -15,17 +15,17 @@ description: >-
 
 **La facilité d’installation**
 
-De ce côté, Gatsby même s’il n’est pas compliqué demande un  investissement plus soutenu que Wordpress : L’installation préalable de node (une plateforme logicielle libre basé sur Javascript) et npm (Le gestionnaire de paquets officiel de Node.js). Puis l’installation de Gatsby CLI.
+De ce côté, Gatsby même s’il n’est pas compliqué demande un  investissement plus soutenu que Wordpress : L’installation préalable de **node**(une plateforme logicielle libre basé sur Javascript) et **npm** (Le gestionnaire de paquets officiel de Node.js). Puis l’installation de **Gatsby CLI**.
 
 L’installation est simple, trois commandes, rien de bien complexe en soi si l’on excepte l’usage de  la ligne de commande qui peut effrayer de prime abord...et quelques problèmes qui peuvent se poser en terme d’autorisation notamment pour les utilisateurs de Windows.
 
 **Les ressources** 
 
-La communauté : Il est évident que face au géant  du web qu’est Wordpress (30% des sites), Gatsby fait figure de petit poucet bien en peine de rivaliser. Pourtant, un rapide coup d’oeil sur[ github](https://github.com/gatsbyjs/gatsby) montre une communauté dynamique, réactive et soucieuse d'améliorer la structure du code, de proposer solutions et compléments d’informations.. 
+La communauté : Il est évident que face au géant  du web qu’est Wordpress (30% des sites), Gatsby fait figure de petit poucet bien en peine de rivaliser. Pourtant, un rapide coup d’oeil sur **[ github](https://github.com/gatsbyjs/gatsby)** montre une communauté dynamique, réactive et soucieuse d'améliorer la structure du code, de proposer solutions et compléments d’informations.. 
 
 
 
-La documentation : [Gatsby](https://www.gatsbyjs.org/) propose sur son site une documentation ainsi qu’un tutoriel susceptible de vous accompagner dans vos premiers pas. Claire, progressive et complète, elle  est un incontournable à la découverte.
+La documentation : **[Gatsby](https://www.gatsbyjs.org/)** propose sur son site une documentation ainsi qu’un tutoriel susceptible de vous accompagner dans vos premiers pas. Claire, progressive et complète, elle  est un incontournable à la découverte.
 
 
 
@@ -39,7 +39,7 @@ Un bémol, néanmoins...Si les ressources et  une communauté active existe et s
 
 Gatsby est construit sur une base [ReactJS ](https://reactjs.org/)qui est une bibliothèque javascript développé par Facebook. L’un de ses avantages est que les pages générées ne sont pas rechargées. Cette rapidité est l’un des objectifs poursuivi par les créateurs de Gatsby, affiché sur la page du site comme un mantra : 
 
-> “Fast in every way that matters” ou “Rapide partout où cela compte”.
+> “Fast in every way that matters” ou “Rapide partout où cela compte”. 
 
 **La JamStack**
 

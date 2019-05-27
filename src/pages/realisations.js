@@ -120,7 +120,7 @@ class Realisations extends React.Component {
                                 <p>Rédaction & Présentation des différents livrables</p>      
                         </div>
                         <div className="projets" id="p-lancer">
-                                    <h2> S'ELANCER</h2>
+                                    <h2> SE LANCER</h2>
                                     <div id="formReal">
                                     <Contact />
                                     </div>    

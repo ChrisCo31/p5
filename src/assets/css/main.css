@@ -45,6 +45,7 @@ h5 {
 h6 {
     font-size: 0.7em;
 }
+
 /*=====================================================**
 **                  Banner                             **
 **=====================================================*/
@@ -656,6 +657,18 @@ padding-left: 350px;
   padding-left:10%;
   font-size: 18px;
 }
+.art ul {
+  color:#ffffff;
+  padding-top:2%;
+  padding-left:10%;
+  font-size: 18px;
+}
+.art blockquote p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 140%;
+}
 .art img {
   border-radius: 1%;
 }
@@ -684,15 +697,31 @@ padding-left: 350px;
   background-color: #5E8EBE;
 }
 .lost h1 {
-  padding-top:250px;
-  padding-left: 600px;
-  font-size: 55px;
+padding-top:250px;
+padding-left: 600px;
+font-size: 55px;
 }
 .lost h2 {
   padding-top:25px;
   padding-left: 600px;
   font-size: 35px;
   }
+/*=====================================================**
+**                  Mentions Legales                            **
+**=====================================================*/
+.ml {
+  width: 700px;
+  margin-top:5%;
+  margin-left:25%;
+  margin-right:25%;
+  color: black;
+}
+.ml h2 {
+  padding-top:2%;
+  padding-bottom:2%; 
+}
+
+
 
 /*=====================================================**
 **                  MEDIA QUERIES                      **

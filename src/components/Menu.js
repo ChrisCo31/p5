@@ -25,7 +25,10 @@ const Menu = (props) => (
                     <li id='blog'><Link to="/IndexBlog"><i>Blog</i></Link></li>
                     <div className="bordermenu"></div>
                 </ul>
+                <div className="annexe">
                 <p id='mention'><Link to="/mentionsLegales"><i>Mention Legales</i></Link></p>
+                <p id='mention'><Link to="/rgpd"><i>Charte RGPD</i></Link></p>
+                </div>
                 <div className="reseauxsoc">
                     <ul className="icons">
                         <a href="https://twitter.com/ChristelCoeur" className="fab fa-twitter fa-xs"><span className="label"></span></a>

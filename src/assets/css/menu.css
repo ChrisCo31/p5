@@ -47,7 +47,7 @@
 }
 .side-menu h3  {
   
-  margin-top: 180px;
+  margin-top: 100px;
   margin-left: 65px;
   color: #FFF;
   text-decoration: none;
@@ -75,6 +75,10 @@
   margin-top:-20px;
   margin-left:60px;
   margin-right:50px;
+}
+.annexe {
+  margin-top :65px;
+  font-size:1rem;
 }
 /*=====================================================**
 **                  MEDIA QUERIES                      **
