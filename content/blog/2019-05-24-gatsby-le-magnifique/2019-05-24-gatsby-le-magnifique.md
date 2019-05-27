@@ -10,7 +10,6 @@ description: >-
 **Souhaitant le faire découvrir sans pour autant verser dans l’enthousiasme béat du développeur devant un nouveau jouet, nous optons pour une présentation avec l’incontournable [Wordpress](https://fr.wordpress.com) en maître étalon.**
 
 
-
 ## Les prérequis
 
 **La facilité d’installation**
@@ -95,3 +94,7 @@ Le recours à Gatsby  ne nous semble pas relever du premier choix  pour le non p
 Pourtant les avantages de  ce type de structures de code préfabriqués sont indéniables: la légèreté de sa mise en place peut représenter une réelle solution pour certains projets minimaliste dans leur forme. 
 
 C’est en procédant à une analyse précise des objectifs poursuivis que le recours à Gatsby peut être un choix pertinent : N’oublions pas en effet que ce sont les objectifs qui déterminent la solution technique à privilégier, jamais l’inverse. Il en est ainsi pour toutes créations de site et pour toutes technologies et Gatsby ne fait pas exception : elle n'est pas la solution miracle à tous vos problemes de developpemenbt mais peut être une solution tout à fait recommandable pour certains objkectifs clairement identifiés :  le développement et le déploiement rapide de  projet standardisé avec des contraintes économiques fortes et ne nécessitant pas de base de données.
+
+## Résumons nous 
+
+![Infographie gatsby france](./Infographie _ Gatsby.png)

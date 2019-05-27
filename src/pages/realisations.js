@@ -76,7 +76,7 @@ class Realisations extends React.Component {
                                 <h2>PROJET: Création d'un site pour faire découvrir des ressources sur le web</h2>
                                     <h4> CLIENT: Association Kapsul</h4>
                                 <h4> ADN: </h4>
-                                <p> Site avec fonctionnalités multiples et developpement continu sur le long terme. L'objet : Faire découvrir
+                                <p> Site avec fonctionnalités multiples et developpement continu. L'objet : Faire découvrir
                                     des médias alternatifs via une plateforme unique et mettre en place un espace membre</p>
                                 <h4> ENJEUX/CHALLENGE: </h4>
                                 <ul>Deux phases: 
@@ -86,7 +86,7 @@ class Realisations extends React.Component {
                                 
                                     <h4>METHODOLOGIE:</h4>
                                     <ul>
-                                    <li>Réunion de cadrage de la mission : enjeux, organisation, planning</li>
+                                    <li>Réunion de cadrage de la mission : enjeux, organisation.</li>
                                     <li>Elaboration du cahier des charges fonctionnel et technique</li>
                                     <li>Développement du site</li>
                                     <li>Tests et Ajustement </li>

@@ -30,7 +30,7 @@ class Ess extends React.Component {
                                     Animations Stop Motion, création de podcasts audio, littérature numérique.</p>
                                 <p> Ca vous parle ? Vous voulez en savoir plus ? Ou tout simplement vosu avez d'autres idées 
                                     de collaboration ?</p>
-                                <h3> Ecrivez nous ce qui vous motive !</h3>
+                                <h3> Ecrivez-nous ce qui vous motive !</h3>
                                 </div>
                                 <div className="talk">
                                 <Contact/>

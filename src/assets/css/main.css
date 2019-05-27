@@ -365,8 +365,7 @@ padding-left: 350px;
   padding-bottom: 5%;
 }
 #contact {
-  margin : 0 auto;
-  margin-top: 100px;
+  margin-left:250px;
   padding:50px;
   border-radius: 0.1em;
 }
@@ -389,15 +388,16 @@ padding-left: 350px;
 }
 .projets {
   width: 500px;
-  height: 750px;
+  height: 900px;
   overflow: hidden;
   float: left;
   margin: 50px;
   border-radius:1%;
+  text-align: center;
 }
 .projets  h2 {
-  font-style: bolder;
-  font-size: 1em;
+  font-weight: bolder;
+  font-size: 1,1em;
   font-weight:normal;
   padding: 20px 20px 10px 20px;
   margin: 440px 0 0 0; 
@@ -407,7 +407,7 @@ padding-left: 350px;
   transition:margin-top 0.3s ease-in; 
 }
 .projets  h4 {
-  font-size: 0.9em;
+  font-size: 1em;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -416,7 +416,7 @@ padding-left: 350px;
   padding-bottom: 20px
 }
 .projets  p {
-  font-size: 0.8em;
+  font-size: 1em;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -425,7 +425,7 @@ padding-left: 350px;
   padding-bottom: 20px
 }
 .projets  ul {
-  font-size: 0.8em;
+  font-size: 1em;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -532,6 +532,11 @@ padding-left: 350px;
   margin:50px;
   color: rgba(94, 124, 186, 1);
 }
+.container-equipe a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
 .profils {
   width: 400px;
   height: 400px;
@@ -547,14 +552,15 @@ padding-left: 350px;
   font-weight:normal;
   padding: 20px;
 }
-.profils  h4 {
+.profils  h3 {
   font-size: 0.9em;
   list-style: none;
   margin: 0;
   padding: 20;
   margin: 0;
   padding-left: 20px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  text-align:center;
 }
 .profils  p {
   font-size: 0.8em;

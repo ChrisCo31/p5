@@ -19,7 +19,9 @@ class Equipe extends React.Component {
                                 alt="portrait Christel"
                                 height="170px" 
                                 width="170px" />                                   
-                            <h3>Developpement </h3>    	
+                            <h3>Développement </h3> 
+                            <a href="https://www.linkedin.com/in/christel-coeur-developpement/" 
+                            className="fab fa-linkedin fa-3x"><span className="label"></span></a>   	
                         </div>
                         <div className="profils p-market">
                             <h2>ALEX</h2>
@@ -28,7 +30,9 @@ class Equipe extends React.Component {
                                 alt="portrait Alex"
                                 height="170px" 
                                 width="170px" />
-                            <h3>Marketing  </h3>    	
+                            <h3>Marketing  </h3> 
+                            <a href="#" 
+                            className="fab fa-linkedin fa-3x"><span className="label"></span></a>   	
                         </div>
                         <div className="profils p-design">
                             <h2> CLEMENT</h2>
@@ -37,7 +41,9 @@ class Equipe extends React.Component {
                                 alt="portrait Clement"
                                 height="170px" 
                                 width="170px" />                                    
-                            <h3>Design </h3>    	
+                            <h3>Design </h3> 
+                            <a href="#" 
+                            className="fab fa-linkedin fa-3x"><span className="label"></span></a>   	
                         </div>
                         
                   </div>
