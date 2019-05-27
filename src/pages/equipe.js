@@ -31,7 +31,7 @@ class Equipe extends React.Component {
                                 height="170px" 
                                 width="170px" />
                             <h3>Marketing  </h3> 
-                            <a href="#" 
+                            <a href="https://www.linkedin.com/in/alexcodigital/" 
                             className="fab fa-linkedin fa-3x"><span className="label"></span></a>   	
                         </div>
                         <div className="profils p-design">

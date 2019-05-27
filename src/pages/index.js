@@ -18,7 +18,7 @@ class HomeIndex extends React.Component {
                                     </header>
                                 </Link>
                             </article>                           
-                            <article className="zoom" id="box_2">
+                            <article  id="box_2">
                             <Link to="/prestations" id="link" >
                                 <header className="major">
                                     <h3>Découvrez nos Prestations !</h3>

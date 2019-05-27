@@ -78,21 +78,29 @@
 }
 .annexe {
   margin-top :65px;
-  font-size:1rem;
+}
+.annexe p {
+  font-size:0.9rem;
 }
 /*=====================================================**
 **                  MEDIA QUERIES                      **
 **=====================================================*/
 @media only screen and (max-width: 600px) {
   .side-menu:hover {
-    width: 414px;
+    width: 100%;
+  }
+  .side-menu h3  {
+    margin-top: 20px;
+  }
+  .side-menu .icons {
+    margin-top: -45px;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px){
   /* Styles */
   .side-menu:hover {
-    width: 220px;
+    width: 100%;
   }
   }
 
@@ -100,7 +108,7 @@
   
   @media only screen and (min-width: 801px) and (max-width: 1024px) {}
 
-
+ 
 
   @media only screen and (min-width: 1025px) and (max-width: 1280px){}
 

@@ -6,7 +6,6 @@ description: >-
 ---
 
 ![Activites hebdomadaires par device](./Activités hebdo - Le Digital France 2018.jpg)
-##Problématique & réponse à cette problématique : ##
 
 
 Le dernier rapport Hootsuite/We Are Social (2018) autour du Digital en France nous prouve une fois de plus à quel point l’univers du Digital fait partie de notre vie quotidienne à tous, ou presque…
