@@ -34,8 +34,7 @@ Commencer par une palette de couleurs peut être un bon début.
 Dans notre cas, il nous as semblé evident que pour une entreprise solidaire de statu SCOP, qui œuvre pour l’ESS nos couleurs allaient tirer vers du vert en principal, pour le côté naturelle d’une forme équitable de société, et du bleu, comme seconde couleur pour le côté travail, et ouverture sur autrui.
 
 
-
-\[IMAGE DE PALETTE]
+![Palette couleur](./PlatteGraphique.png)
 
 
 

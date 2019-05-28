@@ -17,7 +17,7 @@ C’est pourquoi on commence par une étape dite, «fils de fer» voir même plu
 
 
 
-\[IMAGE ZONING]
+![Zoning](./ZoningImage.png)
 
 
 
