@@ -3,7 +3,7 @@ import Layout2 from '../components/Layout2'
 
 import Rasko31 from '../assets/pictures/rasko31.png'
 import Alex from '../assets/pictures/alex.png'
-import Avatar from '../assets/pictures/avatar.png'
+import Avatar from '../assets/pictures/soldat_inconnu.jpg'
 
 
 class Equipe extends React.Component {

@@ -1,9 +1,15 @@
 import React from "react";
 
-
+import Logo from '../assets/pictures/logo.png'
 const Banner2 = () => (
   <section id="banner2">
     <div className="banner2">
+    <div className="logo">                   
+          <img
+          src={Logo} 
+          alt="Logo Prométhée"
+          />                                 
+        </div><br />
         <header className="title">
             <h1>Prométhée</h1>
             <div className="border"></div>

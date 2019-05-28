@@ -98,6 +98,14 @@ ul {
     background-size: cover;
     opacity:0.9;
 }
+#banner2 img {
+  border-radius: 50%;
+  float:right;
+  margin-top: -1%;
+  margin-right: 2%;
+  max-width: 100%;
+	height: auto;
+}
 .title {
 padding-left : 350px;
 }
@@ -824,12 +832,17 @@ font-size: 55px;
     background-color: #67C27D;
 }
 #banner img {
-  border-radius: 50%;
   float:right;
   margin-top: -12%;
   margin-right: 2%;
   max-width: 30%;
 	height: auto
+}
+#banner2 img {
+  margin-top: %;
+  margin-right: 2%;
+  max-width: 30%;
+	height: auto;
 }
 .title {
   padding-left : 70px;
@@ -847,37 +860,59 @@ font-size: 55px;
 #box_1 {
     width:100%;
   }
+#box_1:hover {
+  width:100%;
+}
 #box_2 {
   width:100%;
   }
+#box_2:hover {
+  width:100%;
+}
 #second {
-    flex-direction: column;
-  }
-  #box_3 {
-    width:100%;
-  }
-  #box_3 h3 {
-    padding-left : 20px;
-  }
+  flex-direction: column;
+}
+#box_3 {
+  width:100%;
+  background-position:center;
+}
+#box_3:hover {
+  width:100%;
+  background-position:center;
+  
+}
+#box_3 h3 {
+  padding-left : 20px;
+}
 #box_contact {
   width:100%;
   margin-left:25px;
-  }
-  #third{
-    flex-direction: column;
-  }
-  #box_4 {
-    width:100%;
-  }
+}
+#third{
+  flex-direction: column;
+}
+#box_4 {
+  width:100%;
+}
+#box_4:hover {
+  width:100%;
+}
 #box_5 {
   width:100%;
-  }
-  #box_6 {
+}
+#box_5:hover {
   width:100%;
-  } 
-  .zoom:hover {
-    transform: none; 
-  }
+}
+#box_6 {
+  width:100%;
+} 
+#box_6:hover {
+  width:100%;
+  background-position:center;
+}
+.zoom:hover {
+  transform: none; 
+}
 /*=====================================================**
 **                  Banner2                             **
 **=====================================================*/
