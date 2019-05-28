@@ -2,10 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Contact from '../components/Contact'
+import Head from '../components/Head'
 
 class HomeIndex extends React.Component {
     render () {
         return (
+            <div id="wrapper">
+            <Head />
             <Layout>
                   <div id="main">
                     <section id="articles" className="titles">
@@ -63,7 +66,8 @@ class HomeIndex extends React.Component {
                     </section>
                    
                   </div>
-            </Layout>   
+            </Layout>
+            </div>   
         )
     }
 }
