@@ -90,11 +90,29 @@
     width: 100%;
   }
   .side-menu h3  {
-    margin-top: 20px;
+    margin-top: 1%;
   }
   .side-menu .icons {
-    margin-top: -45px;
+    margin-top: -6%;;
   }
+  .side-menu a {
+   margin-top: 1%
+  }
+  .annexe {
+    margin-top :2%;;
+  }
+  .term {
+    margin-top:-1%;
+  }
+
+.side-menu ul  {
+  padding-top:1%;
+    list-style-type:none;
+}
+.side-menu p  {
+  padding-top:1%;
+    list-style-type:none;
+}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px){
@@ -103,9 +121,6 @@
     width: 100%;
   }
   }
-
-
-  
   @media only screen and (min-width: 801px) and (max-width: 1024px) {}
 
  
