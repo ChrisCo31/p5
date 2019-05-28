@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 export default () =>
     <Helmet>
         {/* <!-- Primary Meta Tags --> */}
-        <title>Agence digitale Porméthée</title>
-                <meta name="title" content="Agence digitale Porméthée" />
+        <title>Agence digitale Prométhée</title>
+                <meta name="title" content="Agence digitale Prométhée" />
                 <meta name="description" content="une agence digitale basée sur la confiance, la collaboration et la formation.
                 Nous vous accompagnons dans votre transformation digitale."/>
 

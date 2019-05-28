@@ -5,7 +5,6 @@ import Menu from "../components/Menu";
 import Banner2 from "../components/Banner2";
 import Footer from "../components/Footer";
 import Layout3 from "../components/layout3"
-import SEO from "../components/seo"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -18,10 +17,7 @@ class BlogPostTemplate extends React.Component {
        <Banner2 />
       <Layout3 location={this.props.location} title={siteTitle}>
       <Menu />
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-        />
+       
         <div className="art">
         <h1>{post.frontmatter.title}</h1>
         <p>

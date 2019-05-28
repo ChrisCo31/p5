@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Prométhée, agence digitale ESS`,
     author: `TheTeam`,
-    description: `Le site de l'agence digitale Promethée`,
+    description: `Agence digitale ESS, fondée sur la collaboration, le conseil et la formation`,
     siteUrl: `https://p5promethee.netlify.com/`,
   },
   plugins: [
@@ -55,13 +55,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Agence Digitale Prométhée`,
+        short_name: `Prométhée`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo.png`,
       },
     },
     `gatsby-plugin-offline`,

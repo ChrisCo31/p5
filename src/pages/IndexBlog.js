@@ -5,7 +5,6 @@ import Menu from "../components/Menu";
 import Banner2 from "../components/Banner2";
 import Footer from "../components/Footer";
 import Layout3 from "../components/layout3"
-import SEO from "../components/seo"
 
 class BlogIndex extends React.Component {
   render() {
@@ -20,7 +19,7 @@ class BlogIndex extends React.Component {
       <Menu />
       
       <div className="formBlog">
-        <SEO title="All posts" />
+       
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
