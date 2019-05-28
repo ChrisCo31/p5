@@ -18,4 +18,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Auteur", name: "auteur", widget: "string" }
+      - { label: "Tag1", name: "tag1", widget: "string" }
+      - { label: "Tag2", name: "tag2", widget: "string" }
+      - { label: "Tag3", name: "tag3", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
