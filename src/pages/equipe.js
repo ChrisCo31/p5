@@ -42,7 +42,7 @@ class Equipe extends React.Component {
                                 height="170px" 
                                 width="170px" />                                    
                             <h3>Design </h3> 
-                            <a href="#" 
+                            <a href="https://fr.wikipedia.org/wiki/Cl%C3%A9ment" 
                             className="fab fa-linkedin fa-3x"><span className="label"></span></a>   	
                         </div>
                         

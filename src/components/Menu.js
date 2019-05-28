@@ -9,6 +9,7 @@ const Menu = (props) => (
             <div className="term">
                 <p className="fas fa-bars fa-lg"></p>
             </div>
+           
             <h3><Link to="/">Prométhée</Link></h3>
                 <p>Agence digitale ESS</p>
                 <ul>
