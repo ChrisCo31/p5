@@ -1,11 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Helmet from "react-helmet"
 import Layout from '../components/Layout'
 import Contact from '../components/Contact'
 
 class HomeIndex extends React.Component {
     render () {
         return (
+            <div id="wrapper">
+            <Helmet>
+                <title>Agence Digitale Promethée</title>
+            </Helmet>
             <Layout>
                   <div id="main">
                     <section id="articles" className="titles">
@@ -63,7 +68,8 @@ class HomeIndex extends React.Component {
                     </section>
                    
                   </div>
-            </Layout>   
+            </Layout> 
+            </div>  
         )
     }
 }

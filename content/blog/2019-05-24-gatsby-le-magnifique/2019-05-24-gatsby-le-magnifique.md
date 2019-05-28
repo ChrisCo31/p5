@@ -95,6 +95,6 @@ Pourtant les avantages de  ce type de structures de code préfabriqués sont ind
 
 C’est en procédant à une analyse précise des objectifs poursuivis que le recours à Gatsby peut être un choix pertinent : N’oublions pas en effet que ce sont les objectifs qui déterminent la solution technique à privilégier, jamais l’inverse. Il en est ainsi pour toutes créations de site et pour toutes technologies et Gatsby ne fait pas exception : elle n'est pas la solution miracle à tous vos problemes de developpemenbt mais peut être une solution tout à fait recommandable pour certains objkectifs clairement identifiés :  le développement et le déploiement rapide de  projet standardisé avec des contraintes économiques fortes et ne nécessitant pas de base de données.
 
-## Résumons nous 
+## Précisions utiles :
 
 ![Infographie gatsby france](./Infographie _ Gatsby.png)

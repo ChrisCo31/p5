@@ -467,7 +467,7 @@ display: flex;
   color: #91C1E6;
 }
 .projets {
-  width: 500px;
+  width: 450px;
   height: 950px;
   overflow: hidden;
   float: left;
@@ -716,36 +716,39 @@ display: flex;
 .art {
   padding-top:100px;
   padding-bottom:100px;
-  padding-left:350px;
+  padding-left:30%;
   padding-right:450px;
   background-color: #5E8EBE!important;
-  text-decoration: none;
+  text-justify: distribute;
   color: white; 
 }
 .art a {
   color:#ffffff;
+  text-decoration: none;
 }
 .art h1 {
   text-align: center;
 }
-.art.dateB{
-  text-align: center;
-}
+
 .art h2 {
   color:#ffffff;
-  padding:25px;
+  padding:35px;
   text-align: center;
+}
+.dateArticle {
+  text-align: center;
+  padding-right:20%;
 }
 .art p {
   color:#ffffff;
   padding-top:2%;
-  padding-left:10%;
+  padding-left:15%;
   font-size: 18px;
 }
 .art ul {
   color:#ffffff;
   padding-top:2%;
-  padding-left:10%;
+  padding-left:15%;
   font-size: 18px;
 }
 .art blockquote p {
@@ -1034,10 +1037,16 @@ font-size: 55px;
   font-size:35px;
 }
 .projets {
-  width: 450px;
-  height:950px;
+  width: 100%;
+  height:1000px;;
   margin: 40px;
   padding:10px;
+}
+.projets h2 {
+  padding-top:7%;
+}
+.projets  h4 {
+  padding: 1%;
 }
 /*=====================================================**
 **                  Partenariats                          **
