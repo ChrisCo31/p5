@@ -18,8 +18,6 @@ class quatre extends React.Component {
                     </section>
                     <Footer />
                   </div>
-               
-            
         )
     }
 }

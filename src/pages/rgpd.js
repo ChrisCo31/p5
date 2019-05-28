@@ -7,7 +7,7 @@ class rgpd extends React.Component {
        
                   <div id="main">
                        <Menu />
-                    <section > 
+                    <section id="legales" > 
                         
                             <article className="ml">
                                 <h1>Synthese graphique de la charte</h1>
@@ -24,7 +24,7 @@ class rgpd extends React.Component {
                                     caractère personnel. Cette politique de protection des données a été conçue pour vous exposer de manière globale 
                                     les raisons et la manière dont nous collectons et traitons vos données.</p>
                                 <p>Afin de simplifier votre lecture de notre charte de protection des données et de vous permettre de voir 
-                                    rapidement les données que nous traitons vous concernant, nous vous proposons ci-dessous une vue synthétique 
+                                    rapidement les données que nous traitons vous concernant, nous vous proposons ci-dessous un tableau synthétique 
                                    et dénuée de jargon juridique.</p>
                                 <table>
                                     <tr>
@@ -88,8 +88,6 @@ class rgpd extends React.Component {
                                         <th>Transferts de données Hors EU possibles avec des garanties appropriées</th>
                                         <th>Transferts de données Hors EU possibles avec des garanties appropriées</th>     
                                     </tr>
-                                    
-
                                 </table>
                            
                            </article>

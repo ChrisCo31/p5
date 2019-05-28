@@ -9,7 +9,7 @@ class mentionLegales extends React.Component {
             
                   <div id="main">
                        <Menu />
-                    <section > 
+                    <section id="legales" > 
                         
                             <article className="ml">
                             <h1>Mentions legales</h1>
