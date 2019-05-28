@@ -10,59 +10,55 @@ class HomeIndex extends React.Component {
                   <div id="main">
                     <section id="articles" className="titles">
                         <div id="first">
-                            <article className="zoom" id="box_1">
-                                <Link to="/ess" id="link" >
-                                    <header className="major">
-                                        <h3>Vous avez dit ESS ?</h3>
-                                        <p>  </p> 
-                                    </header>
-                                </Link>
-                            </article>                           
-                            <article  id="box_2">
-                            <Link to="/prestations" id="link" >
-                                <header className="major">
-                                    <h3>Découvrez nos Prestations !</h3>
-
-                                </header>
+                            <Link to="/ess" id="box_1" className ="zoom">
+                                <article >                                
+                                        <header className="major">
+                                            <h3>Vous avez dit ESS ?</h3> 
+                                        </header>                             
+                                </article>
                             </Link>
-                            </article>
+                            <Link to="/prestations" id="box_2" className ="zoom" >                           
+                                <article >
+                                    <header className="major">
+                                        <h3>Découvrez nos Prestations !</h3>
+                                    </header>
+                                </article>
+                            </Link>
                         </div>
                         <div id="second">
-                        <article  className ="zoom" id="box_3">
-                            <Link to="/realisations" id="link" >
-                                <header className="major">
-                                    <h3>Un aperçu de nos Réalisations...</h3>
-                                </header>
+                            <Link to="/realisations" id="box_3" className ="zoom" >
+                                <article   >
+                                    <header className="major">
+                                        <h3>Un aperçu de nos Réalisations...</h3>
+                                    </header>
+                                </article>
                             </Link>
-                        </article>
-                        <article id="box_contact">
-                            <Contact />
-                        </article>
+                                <article id="box_contact">
+                                    <Contact />
+                                </article>
                         </div>
                         <div id="third">
-                            <article className="zoom" id="box_4" >
-                            <Link to="/partenariat" id="link" >
-                                <header className="major">
-                                    <h3>Devenons Partenaires</h3>
-                                </header>
+                            <Link to="/partenariat"id="box_4" className="zoom" >
+                                <article   >
+                                    <header className="major">
+                                        <h3>Devenons Partenaires</h3>
+                                    </header>
+                                </article>
                             </Link>
-                            </article>
-                            <article className="zoom" id="box_5">
-                                <Link to="/equipe" id="link" >
+                            <Link to="/equipe" id="box_5" className="zoom">
+                                <article  >
                                     <header className="major">
                                         <h3>Qui sommes nous ?</h3>
-
                                     </header>
-                                </Link>
-                            </article>
-                            <article className="zoom" id="box_6" >
-                                <Link to="/IndexBlog" id="link" >
-                                    <header className="major">
-                                        <h3>Visitez notre Blog</h3>
-
-                                    </header>
-                                </Link>
-                            </article>
+                                </article>
+                            </Link>
+                            <Link to="/IndexBlog"  id="box_6" className="zoom">
+                                <article  >
+                                        <header className="major">
+                                            <h3>Visitez notre Blog</h3>
+                                        </header>    
+                                </article>
+                            </Link>
                         </div>
                     </section>
                    

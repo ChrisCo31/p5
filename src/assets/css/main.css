@@ -62,9 +62,15 @@ ul {
   background-size: cover;
   opacity:0.9;
 }
-.logo{
-  margin-right:10px;
+#banner img {
+  border-radius: 50%;
+  float:right;
+  margin-top: -12%;
+  margin-right: 2%;
+  max-width: 100%;
+	height: auto;
 }
+ 
 .title {
   padding-left : 350px;
   padding-top :90px;
@@ -124,11 +130,25 @@ padding-left: 350px;
   text-align: center;
 }
 #first a h3{
-  margin-top:230px;
+  margin-top:180px;
+  color:#ffffff;
 }
 #first {
     height:100%;
     display: flex;
+}
+#second {
+  height:100%;
+  display: flex;
+}
+#third {
+height:100%;
+display: flex;
+}
+.major a h3{
+  margin-top:130px;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 #box_1 {
     background: linear-gradient(
@@ -141,7 +161,17 @@ padding-left: 350px;
     width: 30%;
     height: 500px;
   }
-
+  #box_1:hover {
+    background: linear-gradient(
+      rgba(145, 195, 213, 0), 
+      rgba(145, 195, 213, 0)
+      ), url("../../assets/pictures/pic10.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 30%;
+    height: 500px;
+  }
 #box_2 {
   background: linear-gradient(
     rgba(94, 142, 190, 0.7), 
@@ -152,13 +182,20 @@ padding-left: 350px;
   background-size: cover;
     width: 70%;
     height: 500px;
-    color: black !important;
-    
+    color: black !important; 
   }
-#second {
-    height:100%;
-    display: flex;
-}
+  #box_2:hover{
+    background: linear-gradient(
+      rgba(94, 142, 190, 0), 
+      rgba(94, 142, 190, 0)
+      ), url("../../assets/pictures/pic01.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+      width: 70%;
+      height: 500px;
+      color: black !important; 
+    }
 #second a h3{
   margin-top:230px;
 }
@@ -175,6 +212,19 @@ padding-left: 350px;
     padding: 50px;
     border-radius: 0.1em;
   }
+  #box_3:hover {
+    background: linear-gradient(
+      rgba(94, 124, 186, 0), 
+      rgba(94, 124, 186, 0)
+      ), url("../../assets/pictures/pic04.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+    width: 55%;
+    height: 600px;
+    padding: 50px;
+    border-radius: 0.1em;
+  }
 #box_contact {
     background-color: #E8E8E8;
     width: 45%;
@@ -182,12 +232,6 @@ padding-left: 350px;
     padding: 50px;
     border-radius: 0.1em;
   }
-
-
-#third {
-    height:100%;
-    display: flex;
-}
 #third a h3 {
   margin-top: 130px;
 }
@@ -200,10 +244,19 @@ padding-left: 350px;
     background-position:right;
     background-size: cover;
     width: 33.33%;
-    height: 400px;
-    
+    height: 400px;  
   }
-
+  #box_4:hover {
+    background: linear-gradient(
+      rgba(103, 194, 125, 0), 
+      rgba(103, 194, 125, 0)
+      ), url("../../assets/pictures/pic08.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+    width: 33.33%;
+    height: 400px;  
+  }
 #box_5 {
     background: linear-gradient(
       rgba(0, 179, 85, 0.7), 
@@ -214,21 +267,39 @@ padding-left: 350px;
     background-size: cover;
     width: 33.33%;
     height: 400px;
-    
   }
-
+  #box_5:hover {
+    background: linear-gradient(
+      rgba(0, 179, 85, 0), 
+      rgba(0, 179, 85, 0)
+      ), url("../../assets/pictures/pic11.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+    width: 33.33%;
+    height: 400px;
+  }
 #box_6 {
     background: linear-gradient(
       rgba(103, 194, 125, 0.7), 
       rgba(103, 194, 125, 0.7)
+      ), url("../../assets/pictures/pic13-C.jpg");
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size: cover;
+    width: 33.33%;
+    height: 400px;
+  }
+  #box_6:hover {
+    background: linear-gradient(
+      rgba(103, 194, 125, 0), 
+      rgba(103, 194, 125, 0)
       ), url("../../assets/pictures/pic13.jpg");
     background-repeat:no-repeat;
     background-position:right;
     background-size: cover;
     width: 33.33%;
     height: 400px;
-    color: black;
-    
   }
 .zoom {
 
@@ -751,6 +822,14 @@ font-size: 55px;
     padding-top: 50px;
     padding-left:-55px;
     background-color: #67C27D;
+}
+#banner img {
+  border-radius: 50%;
+  float:right;
+  margin-top: -12%;
+  margin-right: 2%;
+  max-width: 30%;
+	height: auto
 }
 .title {
   padding-left : 70px;
