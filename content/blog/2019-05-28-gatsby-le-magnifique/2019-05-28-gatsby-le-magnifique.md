@@ -1,11 +1,15 @@
 ---
 title: Gatsby le magnifique  ?
-date: 2019-05-24T09:30:40.029Z
+date: 2019-05-28T15:42:47.267Z
 description: >-
-  Loin de moi l’idée de discuter la valeur de ce qui est considéré comme un chef
-  d’oeuvre de la littérature mondiale. Non, le Gatsby dont il sera question ici est un générateur
-  de site statique (GSS) qui connaît lui aussi une certaine popularité mais en
-  matière de développement web.
+  Loin de moi l’idée de discuter la valeur de ce qui est considéré comme un
+  chef   d’oeuvre de la littérature mondiale. Non, le Gatsby dont il sera
+  question ici est un générateur   de site statique (GSS) qui connaît lui aussi
+  une certaine popularité mais en   matière de développement web.
+auteur: Christel
+tag1: '#Developpement'
+tag2: '#Frontend'
+tag3: '#Point de vue'
 ---
 **Souhaitant le faire découvrir sans pour autant verser dans l’enthousiasme béat du développeur devant un nouveau jouet, nous optons pour une présentation avec l’incontournable [Wordpress](https://fr.wordpress.com) en maître étalon.**
 
@@ -97,4 +101,4 @@ C’est en procédant à une analyse précise des objectifs poursuivis que le re
 
 ## Précisions utiles :
 
-![Infographie gatsby france](./Infographie _ Gatsby.png)
+![Infographie gatsby france](./InfoGatsby.png)

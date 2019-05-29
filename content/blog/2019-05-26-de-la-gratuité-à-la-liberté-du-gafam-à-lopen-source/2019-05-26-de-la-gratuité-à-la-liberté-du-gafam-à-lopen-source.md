@@ -6,6 +6,10 @@ description: >-
   controverses : Fossoyeurs de la démocratie pour les uns, modèle d’efficience à
   imiter pour les autres, les GAFAM sont au coeur de nombreux débats : leur
   puissance fascine autant qu’elle fait peur.
+auteur: Christel
+tag1: '#Outils'
+tag2: '#Alternative'
+tag3: '#GAFAM'
 ---
 Souvent perçus comme les nouveaux décideurs de la marche du monde, plus puissants que les Etats, ils sont devenus incontournables… Au niveau des professionnels du web, on peut même dorénavant parler de la stack **”GAFAM”**... Florilèges :
 

@@ -2,6 +2,10 @@
 title: 'Pourquoi et comment créer son persona ? '
 date: 2019-05-24T13:32:07.023Z
 description: L’importance du persona et pourquoi cibler ?<br /> Pourquoi est-ce important mais surtout comment le créer ?
+auteur: Alexandra 
+tag1: '#Marketing'
+tag2: '#Personas'
+tag3: '#Cibler'
 ---
 
 ![Photo de persona](./Pourquoi_ et_ comment_créer_un_persona.jpg)

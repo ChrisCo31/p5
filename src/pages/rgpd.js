@@ -26,7 +26,8 @@ class rgpd extends React.Component {
                                 <p>Afin de simplifier votre lecture de notre charte de protection des données et de vous permettre de voir 
                                     rapidement les données que nous traitons vous concernant, nous vous proposons ci-dessous un tableau synthétique 
                                    et dénuée de jargon juridique.</p>
-                                <table>
+                                <div id="tableau" > 
+                                <table className="table">
                                     <tr>
                                         <th></th>
                                         <th>Candidats</th>
@@ -89,7 +90,7 @@ class rgpd extends React.Component {
                                         <th>Transferts de données Hors EU possibles avec des garanties appropriées</th>     
                                     </tr>
                                 </table>
-                           
+                                </div> 
                            </article>
                         
                     </section>

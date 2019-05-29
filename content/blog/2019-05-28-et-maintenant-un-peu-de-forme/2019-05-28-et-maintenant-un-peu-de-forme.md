@@ -2,6 +2,10 @@
 title: ' Et maintenant un peu de forme !'
 date: 2019-05-28T07:34:13.334Z
 description: ' Dans le précédent article, je vous parlais des couleurs comme possible première étape de travail une fois les besoins et les premières informations récoltées. Cette étape nous donne déjà une ligne directrice et parfois un peu d’inspiration pour la suite.'
+auteur: Clement
+tag1: '#Design'
+tag2: '#Zoning'
+tag3: '#StepByStep'
 ---
 Maintenant, il est temps de donner une forme à nos couleurs !
 

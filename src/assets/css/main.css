@@ -713,36 +713,48 @@ display: flex;
 /*=====================================================**
 **                  BLOGPOST                            **
 **=====================================================*/
-.art {
-  padding-top:100px;
-  padding-bottom:100px;
-  padding-left:30%;
-  padding-right:450px;
+.allart{
   background-color: #5E8EBE!important;
-  text-justify: distribute;
+}
+.ressource {
+  float:right;
+  margin-top:8%;
+  margin-right:8%;
+  background-color:rgb(0, 179, 85); 
+  padding:2%;
+}
+.ressource p {
+  text-align: center;
+}
+.ressource ul {
+  list-style: none;
+}
+.art {
+  padding-top:5%;
+  padding-bottom:8%;
+  padding-left:10%;
+  padding-right:25%;
+
   color: white; 
 }
 .art a {
   color:#ffffff;
   text-decoration: none;
 }
-.art h1 {
-  text-align: center;
-}
-
 .art h2 {
-  color:#ffffff;
-  padding:35px;
-  text-align: center;
+  padding-left:12%;
+  padding-right: 15%;
+  padding-bottom: 3%;
 }
-.dateArticle {
-  text-align: center;
-  padding-right:20%;
+.art h1 {
+  padding-left:12%;
+  padding-bottom: 5%;
+
 }
 .art p {
   color:#ffffff;
   padding-top:2%;
-  padding-left:15%;
+  padding-left:12%;
   font-size: 18px;
 }
 .art ul {
@@ -762,6 +774,7 @@ display: flex;
 }
 .paginate{
   text-align:center;
+  
 
 }
 .paginate ul {
@@ -772,7 +785,8 @@ display: flex;
   padding-top: 50px;
   margin-left:350px;
   margin-right: 350px; 
-  text-decoration: none; 
+  text-decoration: none;
+  color:white; 
 }
 /*=====================================================**
 **                  404                            **
@@ -794,7 +808,7 @@ font-size: 55px;
   font-size: 35px;
   }
 /*=====================================================**
-**                  Mentions Legales et charte RGPD                           **
+**                  Mentions Legales et charte RGPD    **
 **=====================================================*/
 #legales {
   background-color: #C4C4C4;
@@ -1107,8 +1121,21 @@ font-size: 55px;
 /*=====================================================**
 **                  BLOGPOST                            **
 **=====================================================*/
+.ressource {
+  float:right;
+  margin-top:8%;
+  margin-right:30%;
+  background-color:rgb(0, 179, 85); 
+  padding:2%;
+}
+.ressource p {
+  text-align: center;
+}
+.ressource ul {
+  list-style: none;
+}
 .art {
-  padding-top:50px;
+  padding-top:60%;
   padding-bottom:50px;
   padding-left:70px;
   padding-right:40px;
@@ -1123,6 +1150,16 @@ font-size: 55px;
   padding-top: 50px;
   margin-left:70px;
   margin-right: 40px;  
+}
+/*=====================================================**
+**                  Mentions Legales et charte RGPD    **
+**=====================================================*/
+
+.ml {
+  width: 50%;
+}
+#tableau {
+  display:none;
 }
 }
 /*------------------------------------------------------------------------------------------------------------------------------------*/

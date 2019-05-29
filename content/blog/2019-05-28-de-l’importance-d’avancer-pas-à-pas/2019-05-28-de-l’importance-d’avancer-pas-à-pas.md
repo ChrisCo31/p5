@@ -6,6 +6,10 @@ description: >-
   ajoutées selon l’envie et l’instinct !  Certes, le temps faisant, on sent
   mieux ce qu’on peut faire, et un bon instinct et de l’inspiration son tout de
   même capitaux.
+auteur: Clement
+tag1: '#Design'
+tag2: '#Methodologie'
+tag3: '#Visuel'
 ---
 Néanmoins, le design d’un site par exemple vas respecter des étapes bien précises afin de ne pas risquer de manquer sa cible, ou d’être hors sujet.
 
