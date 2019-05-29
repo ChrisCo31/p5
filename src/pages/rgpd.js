@@ -23,11 +23,12 @@ class rgpd extends React.Component {
                                 <p>Lorsque vous utilisez les produits, services et sites internet de Prométhée, vous nous confiez vos données à 
                                     caractère personnel. Cette politique de protection des données a été conçue pour vous exposer de manière globale 
                                     les raisons et la manière dont nous collectons et traitons vos données.</p>
-                                <p>Afin de simplifier votre lecture de notre charte de protection des données et de vous permettre de voir 
+                                <p id="cachert">Afin de simplifier votre lecture de notre charte de protection des données et de vous permettre de voir 
                                     rapidement les données que nous traitons vous concernant, nous vous proposons ci-dessous un tableau synthétique 
                                    et dénuée de jargon juridique.</p>
                                 <div id="tableau" > 
                                 <table className="table">
+                                    <thead>
                                     <tr>
                                         <th></th>
                                         <th>Candidats</th>
@@ -35,6 +36,8 @@ class rgpd extends React.Component {
                                         <th>Prospects</th>
                                         <th>Visiteurs</th>
                                     </tr>
+                                    </thead>
+                                    <tbody>
                                     <tr>
                                         <th>Nature des données traitées</th>
                                         <th>Données d'identification et de contact relative à la sphere professionnelle :fonction</th>
@@ -89,6 +92,7 @@ class rgpd extends React.Component {
                                         <th>Transferts de données Hors EU possibles avec des garanties appropriées</th>
                                         <th>Transferts de données Hors EU possibles avec des garanties appropriées</th>     
                                     </tr>
+                                    </tbody>
                                 </table>
                                 </div> 
                            </article>
