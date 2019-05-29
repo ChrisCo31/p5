@@ -20,7 +20,10 @@ footer a {
 footer li {
     list-style-type:none;
 }
+.footerComp {
+    margin-left:-35px;
 
+}
 .icons{
     font-size: 50px;
 }

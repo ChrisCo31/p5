@@ -63,7 +63,6 @@ ul {
   opacity:0.9;
 }
 #banner img {
-  border-radius:50%;
   float:right;
   margin-top: -12%;
   margin-right: 2%;
@@ -99,7 +98,6 @@ ul {
     opacity:0.9;
 }
 #banner2 img {
-  border-radius: 50%;
   float:right;
   margin-top: -1%;
   margin-right: 2%;
@@ -808,7 +806,7 @@ font-size: 55px;
   font-size: 35px;
   }
 /*=====================================================**
-**                  Mentions Legales et charte RGPD    **
+**          Mentions Legales et charte RGPD    **
 **=====================================================*/
 #legales {
   background-color: #C4C4C4;
@@ -830,7 +828,17 @@ font-size: 55px;
   padding-top:2%;
   padding-bottom:4%; 
 }
-
+table{
+  background-color:#ffffff;
+  width:700px;
+  font-size:12px;
+}
+thead{
+  margin-left:5%;
+}
+tbody{
+  margin-left:5%;
+}
 
 
 /*=====================================================**
