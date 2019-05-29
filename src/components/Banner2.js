@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from '../assets/pictures/logo.png'
+import Logo from '../assets/pictures/logoHeader.png'
 const Banner2 = () => (
   <section id="banner2">
     <div className="banner2">
